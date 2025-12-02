@@ -1,27 +1,63 @@
-## <span id="section1-0">1.0 - Getting Started</span> (***MUST READ***)
-#### <span id="section1-1">1.1 - Hardware Requirements/Recommendations</span>
-- USB Drive (minimum 16GB, USB 3.0 ***strongly*** recommended)
-- Laptop/Desktop Computer (x86_64 with minimum 8GB RAM)
-- Digirig Mobile + Cable* (Lite and DR891 ***NOT*** supported)
-- Transceiver
-- GPS Receiver (recommended)
+## <span id="section1-0">1.0 - Getting Started</span> (***MUST READ!***)
+Yes, a section of the manual is labeled as "**MUST READ!**" That's a clue. Many, if not most, basic support issues or usability complaints stem from improperly set expectations and/or lack of adherence to recommendations.
 
-***Note:** While some popular transceivers are equipped with an internal soundcard. arcOS depends on the use of a Digirig Mobile device as the computer-to-radio interface. Many of the transceivers with internal soundcards are also supported by one or more Digirig cables. The following list is not exhaustive. Please conduct your own research to find an appropriate cable for your transceiver.*
+### <span id="section1-1">1.1 - Hardware Requirements/Recommendations</span>
+- **Laptop/Desktop Computer (x86_64 with min. 8GB RAM)**
+- **USB Drive (min. 16GB, USB 3.0 *strongly* recommended)**
+- **Digirig Mobile + Cable (Lite and DR891 *NOT* supported)**
+- **Transceiver (must be Digirig compatible)**
+- **GPS Receiver (*strongly* recommended)**
 
-- IC-7300 - Uses the Icom IC-706 cable
-- FT-991A - Uses the Kenwood TS-480 cable
-- IC-705 - NO KNOWN SOLUTION FOR USE WITH DIGIRIG
-
-[Back to top](#top)
-
-#### <span id="section1-2">1.2 - First Boot Experience</span>
-The first time arcOS is booted after USB creation, any free space on the USB device is configured as an exFAT filesystem (/arcHIVE) to be used as persistent storage. Any files not saved in this partition will be lost when the system is powered off/rebooted.
-
-Once booted, the user will be presented with a "Select Operator" window. On the first boot, this dropdown will be blank, and the user should select "Add new...". This will lead to the "Station Setup" window. Here, the user should enter their callsign and their Maidnehead grid square (minimum 4 characters). Additionally, "Station Setup" presents the user with a choice of "QRV Profile" (discussed later) and "VARA". For users wishing to use the VARA modems, select "ENABLED".
+> **Developer Note:**
+> 8GB RAM is sufficient for basic usage. Advanced users may require more RAM in order to take advantage of some features. Likewise, a 16GB USB drive may not provide the amount of persistent storage desired by more advanced users. For the purposes of use with arcOS, the "CAT Config" of the Digirig does not matter (Logic level, RS232, CI-V, TX500).
+>
+> Some popular transceivers are equipped with an internal soundcard. That's cool! arcOS doesn't care, and depends on the use of a Digirig Mobile device as the computer-to-radio interface. Many of the transceivers with internal soundcards are also supported by one or more Digirig cables. Please conduct your own research to find an appropriate cable for your transceiver. If you choose to proceed with using the internal soundcard instead of a Digirig, any complaints of "it didn't just work!" will be ignored, or possibly ridiculed.
+>
+> The Digirig Lite and DR891 are not supported due to the use of CM108 PTT (which is not supported by all included applications) and their specific transceiver requirement, respectively.
+>
+> While a GPS receiver is not strictly required, it is extremely useful in "off-grid" situations for maintaining an accurate system clock. Some applications may also use the provided GPS location if it is available.
 
 [Back to top](#top)
 
-#### <span id="section1-3">1.3 - Seeking Support</span>
+### <span id="section1-2">1.2 - First Boot Experience</span>
+The first time arcOS is booted, any free space on the USB device is configured as an exFAT filesystem (/arcHIVE) to be used as persistent storage. Any files not saved in this partition will be lost when the system is powered off/rebooted.
+
+Once booted, you'll see a "Select Operator" screen. On the first boot, this dropdown will be blank, and you should select "Add new...". This will lead to the "Station Setup" window. Here, you should enter your callsign and your Maidenhead grid square (min. 4 characters: EM65). If you have a GPS receiver attached to the system, and it has a valid location fix, the calculated gridsquare will be pre-populated.
+
+Additionally, "Station Setup" presents you with a choice of "QRV Profile", which is a set of user-saved configurations for one or more applications that will be used with a particular purpose in mind. The "QRV Profile" defaults to NONE, since you've not created any profiles yet. 
+
+If you wish to use the VARA modems, select "ENABLED" for this field. 
+
+When you click "OK", arcOS will configure itself using the callsign and gridsquare provided. The "CORE" modules will be deployed for the first time, and this stage may take a few minutes. On subsequent boots, this "CORE" modules deployment will be much faster. This is due to the first deployment requiring the creation of some filesystems on the USB device. If you enabled VARA, the installers will run during the first deployment. You should click through the installers, leaving all inputs as their default value. The VARA installers will not need to run on subsequent boots.
+
+Once arcOS is ready for use, you'll see a pop-up notification that says your callsign is QRV!
+
+arcOS is essentially made of two parts: the ISO image itself, and the "QRV Modules" (CORE and COMMUNITY) which are maintained on GitHub. The modules are updated occasionally with fixes, improvements, and features. When an update for the modules is available, users will be notified by the appearance of a "refresh" icon in the “System Information” displayed at the bottom right of the desktop window. Likewise, if an updated ISO is available, an icon will be show to notify the user. When a module update is available, you can update them by selecting "Update QRV Modules" in the Main Menu, under the "arcOS Tools" section.
+
+[Back to top](#top)
+
+### <span id="section1-3">1.3 - Persistent Storage and Configurations</span>
+Some applications are configured to use persistence by default, and others allow for selective saving of configurations.
+
+Applications/utilities which are persistent by default include:
+
+- Firefox (Web Browser)
+- Thunderbird (Email Client)
+- `$HOME/.ssh` (SSH keys and config files)
+- `$HOME/.gnupg` (GPG keys and config files)
+- Calendar
+- Sticky Notes
+- Applications added to the panel
+
+For applications/utilities which offer selective persistence, please browse the "Main Menu > arcOS Tools" category.
+
+> **Developer Note:** A good first step would be to connect to a Wi-Fi network, then use the "arcOS Tools > Save Wi-Fi Connection" utility to ensure that arcOS reconnects to that network after a reboot. A good second step would be to add your Winlink password to the Pat Winlink client, via the "Action > Configure" utility in Pat. Once set, use "arcOS Tools > Save Pat Winlink Config" to save the settings to a QRV Profile named "DEFAULT".
+>
+> When naming QRV Profiles, avoid spaces and special characters (hyphens and underscores work well).
+
+[Back to top](#top)
+
+### <span id="section1-4">1.4 - Seeking Support</span>
 Coming soon!
 
 [Back to top](#top)
