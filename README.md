@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-13T2024UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-13T2025UTC</em></strong></small></p>
 
 ---
 
@@ -107,7 +107,7 @@ Once arcOS is ready for use, you'll see a pop-up notification that says **"N0CAL
 
 **When seeking *ANY SUPPORT*, you are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea.**
 
-[**Note:** *If you are unable to provide evidence of effort, you may instead contribute a [donation](https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW).*]
+> **Developer Note:** If you are unable to provide evidence of effort, you may instead contribute a [donation](https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW).
 
 [Back to top](#top)
 
