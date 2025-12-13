@@ -30,7 +30,7 @@ blockquote {
 	padding: 5px 10px;
 	background-color: #e0e0e0;
 }
-#section1 {
+#section-1 {
 	border-left: 25px solid #ff0000;
 	padding-left: 5px;
 }
