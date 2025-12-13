@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-13T1939UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-13T1943UTC</em></strong></small></p>
 
 ---
 
@@ -29,6 +29,7 @@
 [Back to top](#top)
 
 ---
+<span id="section-1">
 ## <span id="section1-0">1.0 - Getting Started</span> (***MUST READ!***)
 **Yes, a section of the manual is labeled as "*MUST READ!*" That's a clue. Many, if not most, basic support issues or usability complaints stem from improperly set expectations and/or lack of adherence to recommendations.**
 
@@ -104,6 +105,8 @@ Once arcOS is ready for use, you'll see a pop-up notification that says your **"
 Coming soon!
 
 [Back to top](#top)
+
+</span> <!-- End section-1-->
 
 ---
 ## <span id="section2-0">2.0 - Included Software</span>
