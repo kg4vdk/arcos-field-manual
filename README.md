@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-13T1948UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-13T2001UTC</em></strong></small></p>
 
 ---
 
@@ -75,7 +75,7 @@ Click **"OK"**, and arcOS will configure the session using the callsign and grid
 
 If you enabled VARA, the installers will run during the first deployment. You should click through the installers, leaving all inputs as their default value. The VARA installers will not need to run on subsequent boots.
 
-Once arcOS is ready for use, you'll see a pop-up notification that says your **"N0CALL is QRV!"**
+Once arcOS is ready for use, you'll see a pop-up notification that says **"N0CALL is QRV!"**
 
 [Back to top](#top)
 
