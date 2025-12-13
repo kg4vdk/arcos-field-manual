@@ -50,9 +50,9 @@ Once arcOS is ready for use, you'll see a pop-up notification that says your **"
 [Back to top](#top)
 
 ### <span id="section1-3">1.3 - Persistent Storage and Configurations</span>
-Some applications are configured to use persistence by default, and others allow for selective saving of configurations.
+**Some applications are configured to use persistence by default, and others allow for selective saving of configurations.**
 
-Applications/utilities which are persistent by default include:
+**Applications/utilities which are persistent by default include:**
 
 - Firefox (Web Browser)
 - Thunderbird (Email Client)
@@ -62,11 +62,11 @@ Applications/utilities which are persistent by default include:
 - Sticky Notes
 - Applications added to the panel
 
-For applications/utilities which offer selective persistence, please browse the "Main Menu > arcOS Tools" category.
+**For applications/utilities which offer selective persistence, please browse the "Main Menu > arcOS Tools" category.**
 
-> **Developer Note:** A good first step would be to connect to a Wi-Fi network, then use the "arcOS Tools > Save Wi-Fi Connection" utility to ensure that arcOS reconnects to that network after a reboot. A good second step would be to add your Winlink password to the Pat Winlink client, via the "Action > Configure" utility in Pat. Once set, use "arcOS Tools > Save Pat Winlink Config" to save the settings to a QRV Profile named "DEFAULT".
+> **Developer Note:** A good first step as a new arcOS user would be to connect to a Wi-Fi network, then use the **"arcOS Tools > Save Wi-Fi Connection"** utility to ensure that arcOS reconnects to that network after a reboot. A good second step would be to add your Winlink password to the Pat Winlink client, via the **"Action > Configure"** utility in Pat. Once set, use **"arcOS Tools > Save Pat Winlink Config"** to save the settings to a QRV Profile named **"DEFAULT"**. Now, after a reboot, your arcOS session will remember the Wi-Fi network, and the Pat Winlink client will remember your password.
 >
-> When naming QRV Profiles, avoid spaces and special characters (hyphens and underscores work well).
+> **When naming QRV Profiles, avoid spaces and special characters (hyphens and underscores work well).**
 
 [Back to top](#top)
 
