@@ -7,6 +7,9 @@ fi
 cat <<EOF > ../arcOS-Field-Manual.html
 <head>
 <style>
+body {
+	font-family: monospace;
+}
 h1,h2 {
 	padding: 5px 10px;
 	background-color: #000000;
@@ -15,13 +18,17 @@ h1,h2 {
 
 h3 {
 	padding: 5px 10px;
-	background-color: #416399;
+	background-color: #505050;
 	color: #ffffff;
 }
 
 blockquote {
 	padding: 5px 10px;
 	background-color: #e0e0e0;
+}
+#section-1 {
+	border-left: 25px solid #ff0000;
+	padding-left: 5px;
 }
 </style>
 </head>
@@ -31,4 +38,5 @@ EOF
 
 for md in ../markdown/*.md; do
 	markdown --html4tags $md >> ../arcOS-Field-Manual.html
+	sed -i "s/YYYY-MM-DD/$(date +'%FT%H%M%Z')/" ../arcOS-Field-Manual.html
 done
