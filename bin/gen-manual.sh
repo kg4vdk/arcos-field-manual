@@ -4,6 +4,10 @@ if [ -f ../arcOS-Field-Manual.html ]; then
 	rm ../arcOS-Field-Manual.html
 fi
 
+if [ -f ../README.md ]; then
+	rm ../README/md
+fi
+
 cat <<EOF > ../arcOS-Field-Manual.html
 <head>
 <style>
@@ -37,6 +41,9 @@ EOF
 
 
 for md in ../markdown/*.md; do
+	cat $md >> ../README.md
 	markdown --html4tags $md >> ../arcOS-Field-Manual.html
-	sed -i "s/YYYY-MM-DD/$(date +'%FT%H%M%Z')/" ../arcOS-Field-Manual.html
 done
+
+sed -i "s/YYYY-MM-DD/$(date +'%FT%H%M%Z')/" ../arcOS-Field-Manual.html
+sed -i "s/YYYY-MM-DD/$(date +'%FT%H%M%Z')/" ../README.md
