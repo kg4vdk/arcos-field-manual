@@ -76,7 +76,7 @@ Once arcOS is ready for use, you'll see a pop-up notification that says **"N0CAL
 
 **When seeking *ANY SUPPORT*, you are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea.**
 
-> **Developer Note:** If you are unable to provide evidence of effort, you may instead contribute a [donation](https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW).
+> **Developer Note:** If you are unable to provide evidence of effort, you might want to consider a [donation](https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW) instead.
 
 [Back to top](#top)
 
