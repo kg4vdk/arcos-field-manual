@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-13T2031UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-13T2033UTC</em></strong></small></p>
 
 ---
 
@@ -10,9 +10,11 @@
 ### Is arcOS the right tool for me?
 **arcOS is designed to make learning/mentoring/training easier, especially in group settings. Individuals will also appreciate the reproducible stability that arcOS provides. As a live system, arcOS provides a consistent environment for users. This ensures that every user boots into the same "known-good" environment every time. arcOS exists so users can spend less time troubleshooting, and more time on the air!**
 
-**You can think of arcOS as a platform that provides a base level of functionality. By leveraging the persistent storage features available in arcOS, users can modify or extend the functionality of arcOS by installing additional packages, tweaking/saving configurations, and building modules to share with others.**
+You can think of arcOS as a platform that provides a base level of functionality. By leveraging the persistent storage features available in arcOS, users can modify or extend the functionality of arcOS by installing additional packages, tweaking/saving configurations, and building modules to share with others.
 
-**If arcOS sounds like a good fit for you or your group, *WELCOME!* Read on to get the most out of your experience...**
+If arcOS sounds like a good fit for you or your group, ***WELCOME!***
+
+Read on to get the most out of your experience...
 
 ---
 
