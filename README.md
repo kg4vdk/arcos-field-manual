@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-13T1921UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-13T1924UTC</em></strong></small></p>
 
 ---
 
@@ -108,6 +108,7 @@ Coming soon!
 [Back to top](#top)
 
 </div> <!-- End section-1 -->
+
 ---
 ## <span id="section2-0">2.0 - Included Software</span>
 ### <span id="section2-1">2.1 - Amateur Radio Software</span>

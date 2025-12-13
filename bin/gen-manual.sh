@@ -5,7 +5,7 @@ if [ -f ../arcOS-Field-Manual.html ]; then
 fi
 
 if [ -f ../README.md ]; then
-	rm ../README/md
+	rm ../README.md
 fi
 
 cat <<EOF > ../arcOS-Field-Manual.html
