@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-13T2033UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-14T0014UTC</em></strong></small></p>
 
 ---
 
@@ -61,6 +61,14 @@ Read on to get the most out of your experience...
 > The Digirig Lite and DR891 are not supported due to the use of CM108 PTT (which is not supported by all included applications) and their specific transceiver requirement, respectively.
 >
 > While a GPS receiver is not strictly required, it is extremely useful in "off-grid" situations for maintaining an accurate system clock. Some applications may also use the provided GPS location if it is available.
+
+**Used machines pulled from corporate environments are great candidates for arcOS! Here are some "known good" machines:**
+
+> **Dell (Laptops):** Latitude 7280, 7400
+>
+> **Lenovo (Desktops):** ThinkCentre M715q, M73
+>
+> **Lenovo (Laptops):** ThinkPad T450, T480, X250, X1C5, X1C6 **/** Yoga 6
 
 [Back to top](#top)
 

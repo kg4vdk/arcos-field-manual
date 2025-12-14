@@ -29,6 +29,14 @@
 >
 > While a GPS receiver is not strictly required, it is extremely useful in "off-grid" situations for maintaining an accurate system clock. Some applications may also use the provided GPS location if it is available.
 
+**Used machines pulled from corporate environments are great candidates for arcOS! Here are some "known good" machines:**
+
+> **Dell (Laptops):** Latitude 7280, 7400
+>
+> **Lenovo (Desktops):** ThinkCentre M715q, M73
+>
+> **Lenovo (Laptops):** ThinkPad T450, T480, X250, X1C5, X1C6 **/** Yoga 6
+
 [Back to top](#top)
 
 ### <span id="section1-2">1.2 - First Boot Experience</span>
