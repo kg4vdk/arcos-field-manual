@@ -5,7 +5,7 @@
 
 > **Developer Note:**
 >
-> **YES!...some sections of the manual are labeled as "*MUST READ!*"** 😲
+> Yes, some sections of the manual are labeled as "***MUST READ!***" 😲
 >
 > **That's a $#!&-ing clue!** 😉
 >
