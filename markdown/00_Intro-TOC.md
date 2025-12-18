@@ -1,6 +1,13 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
 <p style="text-align: right;"><small><strong><em>Revised: YYYY-MM-DD</em></strong></small></p>
 
+> **Developer's Note:**
+> YES!...some sections of the manual are labeled as "***MUST READ!***" That's a $#!&-ing clue! Many, if not most, basic support issues or usability complaints stem from improperly set expectations and/or lack of adherence to concepts and recommendations laid out in these sections.
+>
+> The rest of the manual is more topically specific, and some sections may not be relevant to all users. However, it never hurts to inform yourself. You might even uncover some hidden feature, or spark an idea for you and your group!
+>
+> Mike B-)
+
 ---
 
 ## Table of Contents
@@ -25,7 +32,6 @@ arcOS is intentionally built as a platform, not a constantly shifting experiment
 [Back to top](#top)
 
 ### <span id="section0-2">0.2 - Is arcOS the right tool for me?</span>
-
 **arcOS is designed to make operating and training easier, especially when there are multiple people involved. Individuals benefit for the same reasons as groups.**
 
 **arcOS might be a good fit if you:**

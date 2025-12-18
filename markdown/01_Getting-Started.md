@@ -1,6 +1,4 @@
 ## <span id="section1-0">1.0 - Getting Started</span> (***MUST READ!***)
-**Yes, a section of the manual is labeled as "*MUST READ!*" That's a clue. Many, if not most, basic support issues or usability complaints stem from improperly set expectations and/or lack of adherence to recommendations.**
-
 **Before you get started, ask yourself:**
 
 - Why am I interested in arcOS?
