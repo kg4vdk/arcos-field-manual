@@ -1,11 +1,12 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-18T2020UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-18T2021UTC</em></strong></small></p>
 
 ---
 
 > **Developer Note:**
 >
 > **YES!...some sections of the manual are labeled as "*MUST READ!*"** 😲
+>
 > **That's a $#!&-ing clue!** 😉
 >
 > Many, if not most, basic support issues or usability complaints stem from improperly set expectations and/or lack of adherence to concepts and recommendations laid out in these sections. 😔+😡

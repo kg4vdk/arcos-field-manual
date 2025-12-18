@@ -6,6 +6,7 @@
 > **Developer Note:**
 >
 > **YES!...some sections of the manual are labeled as "*MUST READ!*"** 😲
+>
 > **That's a $#!&-ing clue!** 😉
 >
 > Many, if not most, basic support issues or usability complaints stem from improperly set expectations and/or lack of adherence to concepts and recommendations laid out in these sections. 😔+😡
