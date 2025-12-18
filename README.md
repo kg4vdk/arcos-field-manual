@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-18T2124UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-18T2126UTC</em></strong></small></p>
 
 ---
 
@@ -99,28 +99,22 @@ If arcOS sounds like a good fit for you or your group, **welcome!** Read on to g
 
 <table>
 	<tr>
-    	<th>**Manufacturer**</th>
-    	<th>**Models**</th>
+    	<th>Manufacturer</th>
+    	<th>Models</th>
 	</tr>
 	<tr>
-    	<td>**Dell**</td>
-    	<td>**Latitude:** 7280, 7400</td>
+    	<td>Dell</td>
+    	<td>Latitude: 7280, 7400</td>
 	</tr>
 	<tr>
-    	<td>**Lenovo**</td>
-    	<td>**ThinkCentre:** M715q, M73</td>
+    	<td>Lenovo</td>
+    	<td>ThinkCentre: M715q, M73</td>
 	</tr>
 	<tr>
     	<td></td>
-    	<td>**ThinkPad:** T450, T480, X250, X1C5, X1C6</td>
+    	<td>ThinkPad: T450, T480, X250, X1C5, X1C6</td>
 	</tr>
 </table> 
-
-> **Dell (Laptops):** Latitude 7280, 7400
->
-> **Lenovo (Desktops):** ThinkCentre M715q, M73
->
-> **Lenovo (Laptops):** ThinkPad T450, T480, X250, X1C5, X1C6 **/** Yoga 6
 
 [Back to top](#top)
 
