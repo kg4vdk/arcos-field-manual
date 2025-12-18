@@ -29,6 +29,25 @@
 
 **Used machines pulled from corporate environments are great candidates for arcOS! Here are some "known good" machines:**
 
+<table>
+	<tr>
+    	<th>**Manufacturer**</th>
+    	<th>**Models**</th>
+	</tr>
+	<tr>
+    	<td>**Dell**</td>
+    	<td>**Latitude:** 7280, 7400</td>
+	</tr>
+	<tr>
+    	<td>**Lenovo**</td>
+    	<td>**ThinkCentre:** M715q, M73</td>
+	</tr>
+	<tr>
+    	<td></td>
+    	<td>**ThinkPad:** T450, T480, X250, X1C5, X1C6</td>
+	</tr>
+</table> 
+
 > **Dell (Laptops):** Latitude 7280, 7400
 >
 > **Lenovo (Desktops):** ThinkCentre M715q, M73

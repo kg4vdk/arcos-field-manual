@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-18T2023UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-18T2124UTC</em></strong></small></p>
 
 ---
 
@@ -96,6 +96,25 @@ If arcOS sounds like a good fit for you or your group, **welcome!** Read on to g
 > While a GPS receiver is not strictly required, it is extremely useful in "off-grid" situations for maintaining an accurate system clock. Some applications may also use the provided GPS location if it is available.
 
 **Used machines pulled from corporate environments are great candidates for arcOS! Here are some "known good" machines:**
+
+<table>
+	<tr>
+    	<th>**Manufacturer**</th>
+    	<th>**Models**</th>
+	</tr>
+	<tr>
+    	<td>**Dell**</td>
+    	<td>**Latitude:** 7280, 7400</td>
+	</tr>
+	<tr>
+    	<td>**Lenovo**</td>
+    	<td>**ThinkCentre:** M715q, M73</td>
+	</tr>
+	<tr>
+    	<td></td>
+    	<td>**ThinkPad:** T450, T480, X250, X1C5, X1C6</td>
+	</tr>
+</table> 
 
 > **Dell (Laptops):** Latitude 7280, 7400
 >
