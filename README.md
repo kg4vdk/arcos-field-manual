@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-18T2126UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-19T0336UTC</em></strong></small></p>
 
 ---
 
@@ -9,11 +9,11 @@
 >
 > **That's a $#!&-ing clue!** 😉
 >
-> Many, if not most, basic support issues or usability complaints stem from improperly set expectations and/or lack of adherence to concepts and recommendations laid out in these sections. 😔+😡
+> Many, if not most, basic support issues or usability complaints stem from improperly set expectations and/or lack of adherence to concepts and recommendations laid out in these sections.
 >
-> The rest of the manual is more topically specific, and some sections may not be relevant to all users. However, it never hurts to inform yourself. You might even uncover some hidden feature, or spark an idea for you and your group! 😊
+> The rest of the manual is more topically specific, and some sections may not be relevant to all users. However, it never hurts to inform yourself. You might even uncover some hidden feature, or spark an idea for you and your group!
 >
-> Mike 🤓
+> Mike
 
 ---
 
