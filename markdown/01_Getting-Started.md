@@ -19,6 +19,7 @@
 - **GPS Receiver (*strongly* recommended)**
 
 > **Developer Note:**
+>
 > 8GB RAM is sufficient for "normal" usage. Advanced users may require more RAM in order to take advantage of some features. Likewise, a 16GB USB drive may not provide the amount of persistent storage desired. For the purposes of use with arcOS, the "CAT Config" of the Digirig does not matter (Logic level, RS232, CI-V, TX500).
 >
 > Some popular transceivers are equipped with an internal soundcard. That's cool! arcOS doesn't care. arcOS depends on the use of a Digirig Mobile device as the computer-to-radio interface to offer "just works" functionality. Many of the transceivers with internal soundcards are also supported by one or more Digirig cables. Please conduct your own research to find an appropriate cable for your transceiver. If you choose to proceed with using the internal soundcard instead of a Digirig, any complaints of "it didn't just work!" will most likely be ignored.
@@ -82,7 +83,9 @@ Once arcOS is ready for use, you'll see a pop-up notification that says **"N0CAL
 
 **For applications/utilities which offer selective persistence, please browse the "Main Menu > arcOS Tools" category.**
 
-> **Developer Note:** A good first step as a new arcOS user would be to connect to a Wi-Fi network, then use the **"arcOS Tools > Save Wi-Fi Connection"** utility to ensure that arcOS reconnects to that network after a reboot. A good second step would be to add your Winlink password to the Pat Winlink client, via the **"Action > Configure"** utility in Pat. Once set, use **"arcOS Tools > Save Pat Winlink Config"** to save the settings to a QRV Profile named **"DEFAULT"**. Now, after a reboot, your arcOS session will remember the Wi-Fi network, and the Pat Winlink client will remember your password.
+> **Developer Note:**
+>
+> A good first step as a new arcOS user would be to connect to a Wi-Fi network, then use the **"arcOS Tools > Save Wi-Fi Connection"** utility to ensure that arcOS reconnects to that network after a reboot. A good second step would be to add your Winlink password to the Pat Winlink client, via the **"Action > Configure"** utility in Pat. Once set, use **"arcOS Tools > Save Pat Winlink Config"** to save the settings to a QRV Profile named **"DEFAULT"**. Now, after a reboot, your arcOS session will remember the Wi-Fi network, and the Pat Winlink client will remember your password.
 >
 > **When naming QRV Profiles, avoid spaces and special characters (hyphens and underscores work well).**
 
@@ -95,7 +98,9 @@ When seeking ***DEVELOPER SUPPORT***, consider whether your question/issue is sp
 
 When seeking ***ANY SUPPORT***, you are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea.
 
-> **Developer Note:** If you are unable to provide evidence of effort, you might consider submitting a [donation](https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW) along with your support request.
+> **Developer Note:**
+>
+> If you are unable to provide evidence of effort, you might consider submitting a [donation](https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW) along with your support request.
 
 [Back to top](#top)
 

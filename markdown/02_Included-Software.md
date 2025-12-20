@@ -15,7 +15,9 @@
 - VARA HF 4.8.9 (Soundcard Modems for Windows)
 - YAAC 1.0-beta216 (APRS Client)
 
-> **Developer Note:** While arcOS does include FLRig and rigctl[d], and users may save customized settings in applications to take advantage of this, **NO DEVELOPER SUPPORT FOR CAT/RIG CONTROL WILL BE PROVIDED**.
+> **Developer Note:**
+>
+> While arcOS does include FLRig and rigctl[d], and users may save customized settings in applications to take advantage of this, **NO DEVELOPER SUPPORT FOR CAT/RIG CONTROL WILL BE PROVIDED**.
 >
 > **This is for the following reasons:**
 >
