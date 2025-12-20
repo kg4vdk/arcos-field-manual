@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-20T1508UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-20T1509UTC</em></strong></small></p>
 
 ---
 
