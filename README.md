@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-20T1457UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-20T1506UTC</em></strong></small></p>
 
 ---
 
@@ -100,6 +100,10 @@ If arcOS sounds like a good fit for you or your group, **welcome!** Read on to g
 	<tr>
     	<th>Manufacturer</th>
     	<th>Models</th>
+	</tr>
+	<tr>
+    	<td>Asus</td>
+    	<td>"runnung on asus mini"</td>
 	</tr>
 	<tr>
     	<td>Dell</td>

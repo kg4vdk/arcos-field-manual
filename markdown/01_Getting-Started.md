@@ -36,6 +36,10 @@
     	<th>Models</th>
 	</tr>
 	<tr>
+    	<td>Asus</td>
+    	<td>"runnung on asus mini"</td>
+	</tr>
+	<tr>
     	<td>Dell</td>
     	<td>Latitude: 7280, 7400</td>
 	</tr>
