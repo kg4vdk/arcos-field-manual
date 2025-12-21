@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2025-12-21T1753UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2025-12-21T1800UTC</em></strong></small></p>
 
 ---
 
@@ -165,6 +165,8 @@ When seeking support consider whether your question/issue is specific to arcOS. 
 You are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea.
 
 If you are unable to provide evidence of effort, you might consider submitting a [donation](https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW) along with your support request.
+
+> **Recommended Reading:** [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html) by Eric S. Raymond
 
 [Back to top](#top)
 
