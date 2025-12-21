@@ -85,7 +85,7 @@ Once arcOS is ready for use, you'll see a pop-up notification that says **"N0CAL
 
 > **Developer Note:**
 >
-> A good first step as a new arcOS user would be to connect to a Wi-Fi network, then use the **"arcOS Tools > Save Wi-Fi Connection"** utility to ensure that arcOS reconnects to that network after a reboot. A good second step would be to add your Winlink password to the Pat Winlink client, via the **"Action > Configure"** utility in Pat. Once set, use **"arcOS Tools > Save Pat Winlink Config"** to save the settings to a QRV Profile named **"DEFAULT"**. Now, after a reboot, your arcOS session will remember the Wi-Fi network, and the Pat Winlink client will remember your password.
+> A good first step as a new arcOS user would be to connect to a Wi-Fi network, then use the **"arcOS Tools > Save Wi-Fi Connection"** utility to ensure that arcOS reconnects to that network after a reboot. A good second step, if you already have a Winlink account, would be to add your Winlink password to the Pat Winlink client, via the **"Action > Configure"** utility in Pat. Once set, use **"arcOS Tools > Save Pat Winlink Config"** to save the settings to a QRV Profile named **"DEFAULT"**. Now, after a reboot, your arcOS session will remember the Wi-Fi network, and the Pat Winlink client will remember your password.
 >
 > **When naming QRV Profiles, avoid spaces and special characters (hyphens and underscores work well).**
 
@@ -94,13 +94,11 @@ Once arcOS is ready for use, you'll see a pop-up notification that says **"N0CAL
 ### <span id="section1-4">1.4 - Seeking Support</span>
 **Support is available primarily via GitHub. [Discussions](https://github.com/kg4vdk/arcos-linux-modules/discussions) can be started and [issues](https://github.com/kg4vdk/arcos-linux-modules/issues) raised when necessary.**
 
-When seeking ***DEVELOPER SUPPORT***, consider whether your question/issue is specific to arcOS. Generic questions about "Linux" or "ApplicationXYZ" should be directed to a more appropriate support forum.
+When seeking support consider whether your question/issue is specific to arcOS. Generic questions about "Linux" or "ApplicationXYZ" should be directed to a more appropriate support forum. 
 
-When seeking ***ANY SUPPORT***, you are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea.
+You are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea.
 
-> **Developer Note:**
->
-> If you are unable to provide evidence of effort, you might consider submitting a [donation](https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW) along with your support request.
+If you are unable to provide evidence of effort, you might consider submitting a [donation](https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW) along with your support request.
 
 [Back to top](#top)
 
