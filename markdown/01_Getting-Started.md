@@ -100,6 +100,8 @@ You are expected to provide details about what you have already tried/investigat
 
 If you are unable to provide evidence of effort, you might consider submitting a [donation](https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW) along with your support request.
 
+> **Recommended Reading:** [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html) by Eric S. Raymond
+
 [Back to top](#top)
 
 ---
