@@ -8,7 +8,7 @@
 - Hamlib 4.5.5 (Rig Control)
 - JS8Call 2.2.0 (JS8 Client)
 - Paracon 1.2.0 (Packet Client)
-- Pat 0.19.1 (Winlink Client)
+- Pat 0.19.2 (Winlink Client)
 - QSSTV 9.5.8 (Slow Scan Television Client)
 - WSJT-X 2.7.0 (FT8 Client)
 - VARA FM 4.3.9 (Soundcard Modems for Windows)
