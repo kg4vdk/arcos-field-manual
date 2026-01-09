@@ -23,7 +23,9 @@
   - **[1.1 - Hardware Requirements/Recommendations](#section1-1)**
   - **[1.2 - First Boot Experience](#section1-2)**
   - **[1.3 - Persistent Storage and Configurations](#section1-3)**
-  - **[1.4 - Seeking Support](#section1-4)**
+  - **[1.4 - QRV Modules](#section1-4)**
+  - **[1.6 - Backup and Restore](#section1-5)**
+  - **[1.6 - Seeking Support](#section1-6)**
 - **[2.0 - Included Software](#section2-0)**
   - **[2.1 - Amateur Radio Software](#section2-1)**
   - **[2.2 - Other Software](#section2-2)**

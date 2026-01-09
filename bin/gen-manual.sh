@@ -31,6 +31,12 @@ blockquote {
 	padding: 5px 10px;
 	background-color: #e0e0e0;
 }
+
+@media print {
+	body {
+		font-size: 1em !important;
+	}
+}
 </style>
 </head>
 
