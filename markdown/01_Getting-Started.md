@@ -8,8 +8,8 @@
 **As you think about your answers, consider these core arcOS principles:**
 
 - arcOS, ***when used as recommended***, provides a working baseline of fundamental digital communications software.
-- arcOS facilitates rapid team based learning, experimentation, and troubleshooting.
-- arcOS ***does not*** provide the knowledge needed to use the software or perform modifications.
+- arcOS facilitates rapid individual/team-based learning, experimentation, and troubleshooting.
+- arcOS ***does not*** provide the knowledge needed to use the included software or perform modifications.
 
 ### <span id="section1-1">1.1 - Hardware Requirements/Recommendations</span>
 - **Laptop/Desktop Computer (x86_64 with min. 8GB RAM)**

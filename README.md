@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-01-29T1622UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-01-29T1634UTC</em></strong></small></p>
 
 ---
 
@@ -57,7 +57,7 @@ You can think of arcOS as a solid foundation. By leveraging the persistent stora
 - Prefer bleeding-edge systems and the "newest" software
 - Want to customize system-level components immediately
 - Have no desire to try using it "as intended" before suggesting changes
-- Think that "it no worky" is a valid bug report
+- Think that "it no worky" is a valid and supportable bug report
 
 **arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the cutting edge, other distributions are likely to serve you better.**
 
@@ -76,8 +76,8 @@ If arcOS sounds like a good fit for you or your group, **welcome!** Read on to g
 **As you think about your answers, consider these core arcOS principles:**
 
 - arcOS, ***when used as recommended***, provides a working baseline of fundamental digital communications software.
-- arcOS facilitates rapid team based learning, experimentation, and troubleshooting.
-- arcOS ***does not*** provide the knowledge needed to use the software or perform modifications.
+- arcOS facilitates rapid individual/team-based learning, experimentation, and troubleshooting.
+- arcOS ***does not*** provide the knowledge needed to use the included software or perform modifications.
 
 ### <span id="section1-1">1.1 - Hardware Requirements/Recommendations</span>
 - **Laptop/Desktop Computer (x86_64 with min. 8GB RAM)**
