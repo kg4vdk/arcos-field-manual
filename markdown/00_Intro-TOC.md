@@ -1,4 +1,4 @@
-<h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
+<h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
 <p style="text-align: right;"><small><strong><em>Revised: YYYY-MM-DD</em></strong></small></p>
 
 ---
