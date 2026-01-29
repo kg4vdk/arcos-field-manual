@@ -1,5 +1,5 @@
-<h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-01-09T2353UTC</em></strong></small></p>
+<h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-01-29T1622UTC</em></strong></small></p>
 
 ---
 
@@ -227,13 +227,12 @@ If you are unable to provide evidence of effort, you might consider submitting a
 > **IF YOU ARE ADAMANT THAT YOU *NEED* CAT/RIG CONTROL: You should have no problem configuring it yourself within arcOS, then saving that configuration as a "QRV Profile".**
 
 ### <span id="section2-2">2.2 - Other Software</span>
-- Kleopatra (Certificate Manager and Unified Crypto GUI)
+- Kleopatra (Certificate Manager and Unified Cryptography GUI)
 - Localsend (Cross-platform File Sharing)
 - GIMP (Image Editor)
 - Audacity (Audio Editor)
-- GNU Radio (Software Radio Toolkit)
-- GQRX (Software defined radio receiver)
 - Hexchat (IRC Client)
+- RTL-SDR (Software defined radio receiver for Realtek RTL2832U)
 - Shotcut (Video Editor)
 - SkyAware (ADS-B Visualizer)
 - Veracrypt (Disk encryption with strong security based on TrueCrypt)
