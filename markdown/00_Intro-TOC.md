@@ -49,7 +49,7 @@ You can think of arcOS as a solid foundation. By leveraging the persistent stora
 
 **arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the edge, other solutions are likely to serve you better.**
 
-If arcOS sounds like a good fit for you or your group, **welcome!** Read on to get the most out of it.
+If arcOS sounds like a good fit for you or your group, welcome! Read on to get the most out of it.
 
 [Back to top](#top)
 
