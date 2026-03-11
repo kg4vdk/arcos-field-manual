@@ -42,12 +42,12 @@ You can think of arcOS as a solid foundation. By leveraging the persistent stora
 **arcOS might *NOT* be a good fit if you:**
 
 - Expect frequent updates or rapid feature turnover
-- Prefer bleeding-edge systems and the "newest" software
+- Prefer bleeding-edge systems and the newest software
 - Want to customize system-level components immediately
 - Have no desire to try using it "as intended" before suggesting changes
 - Think that "it no worky" is a valid bug report
 
-**arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the cutting edge, other distributions are likely to serve you better.**
+**arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the edge, other solutions are likely to serve you better.**
 
 If arcOS sounds like a good fit for you or your group, **welcome!** Read on to get the most out of it.
 
