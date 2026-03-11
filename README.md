@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-03-11T2122UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-03-11T2125UTC</em></strong></small></p>
 
 ---
 
@@ -177,10 +177,10 @@ Support and community interaction is also available via IRC. arcOS includes Hexc
 When seeking support consider whether your question/issue is specific to arcOS. Generic questions about "Linux" or "ApplicationXYZ" should be directed to a more appropriate support forum. You are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea. Be sure to provide the radio and Digirig version you are using, along with a clear and concise description of the problem you've encountered. The following can serve as a template:
 
 > **Steps to reproduce the behavior:**
-> 1. Go to '...' 
-> 2. Click on '....' 
-> 3. Scroll down to '....' 
-> 4. See error 
+>  1. Go to '...' 
+>  2. Click on '....' 
+>  3. Scroll down to '....' 
+>  4. See error 
 >
 > **Expected behavior:** Description of what you expected to happen.
 >
@@ -191,15 +191,15 @@ When seeking support consider whether your question/issue is specific to arcOS. 
 > **Additional context:** Add any other context about the problem.
 
 You may be asked to provide a "**QRV REPORT**". Here's how to generate the QRV report:
-- Open a terminal.
-- Run the `qrv` command.
-- Copy/paste or attach the report to your support request.
+  - Open a terminal.
+  - Run the `qrv` command.
+  - Copy/paste or attach the report to your support request.
 
 You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate the system report:
-- Select “Menu > System Info”, and select “Upload system information”.
-  - A browser window will open with the text of your system report.
-  - Please, DO NOT copy/paste the full text of the system report.
-  - Instead, copy the link from the browser address bar, and include only the link to the system report.
+  - Select “Menu > System Info”, and select “Upload system information”.
+    - A browser window will open with the text of your system report.
+    - Please, DO NOT copy/paste the full text of the system report.
+    - Instead, copy the link from the browser address bar, and include only the link to the system report.
 
 > **Recommended Reading:**
 >
