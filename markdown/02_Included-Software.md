@@ -30,13 +30,12 @@
 > **IF YOU ARE ADAMANT THAT YOU *NEED* CAT/RIG CONTROL: You should have no problem configuring it yourself within arcOS, then saving that configuration as a "QRV Profile".**
 
 ### <span id="section2-2">2.2 - Other Software</span>
-- Kleopatra (Certificate Manager and Unified Crypto GUI)
+- Kleopatra (Certificate Manager and Unified Cryptography GUI)
 - Localsend (Cross-platform File Sharing)
 - GIMP (Image Editor)
 - Audacity (Audio Editor)
-- GNU Radio (Software Radio Toolkit)
-- GQRX (Software defined radio receiver)
 - Hexchat (IRC Client)
+- RTL-SDR (Software defined radio receiver for Realtek RTL2832U)
 - Shotcut (Video Editor)
 - SkyAware (ADS-B Visualizer)
 - Veracrypt (Disk encryption with strong security based on TrueCrypt)

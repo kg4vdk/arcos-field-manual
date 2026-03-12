@@ -45,7 +45,7 @@ You can think of arcOS as a solid foundation. By leveraging the persistent stora
 - Prefer bleeding-edge systems and the newest software
 - Want to customize system-level components immediately
 - Have no desire to try using it "as intended" before suggesting changes
-- Think that "it no worky" is a valid bug report
+- Think that "it no worky" is a valid and supportable bug report
 
 **arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the edge, other solutions are likely to serve you better.**
 
@@ -240,13 +240,12 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate t
 > **IF YOU ARE ADAMANT THAT YOU *NEED* CAT/RIG CONTROL: You should have no problem configuring it yourself within arcOS, then saving that configuration as a "QRV Profile".**
 
 ### <span id="section2-2">2.2 - Other Software</span>
-- Kleopatra (Certificate Manager and Unified Crypto GUI)
+- Kleopatra (Certificate Manager and Unified Cryptography GUI)
 - Localsend (Cross-platform File Sharing)
 - GIMP (Image Editor)
 - Audacity (Audio Editor)
-- GNU Radio (Software Radio Toolkit)
-- GQRX (Software defined radio receiver)
 - Hexchat (IRC Client)
+- RTL-SDR (Software defined radio receiver for Realtek RTL2832U)
 - Shotcut (Video Editor)
 - SkyAware (ADS-B Visualizer)
 - Veracrypt (Disk encryption with strong security based on TrueCrypt)
