@@ -2,7 +2,7 @@
 <style>
 body {
 	font-family: monospace;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 h1,h2 {
 	padding: 5px 10px;
@@ -31,21 +31,7 @@ blockquote {
 
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
 
-<p style="text-align: right;"><small><strong><em>Revised: 2026-01-29T1634UTC</em></strong></small></p>
-
-<hr>
-
-<blockquote>
-  <p><strong>Developer Note:</strong></p>
-
-<p>Yes, some sections of the manual are labeled as "<strong><em>MUST READ!</em></strong>" 😲</p>
-
-<p><strong>That's a $#!&amp;-ing clue!</strong> 😉</p>
-
-<p>Many, if not most, basic support issues or usability complaints stem from improperly set expectations and/or lack of adherence to concepts and recommendations laid out in these sections.</p>
-
-<p>The rest of the manual is more topically specific, and some sections may not be relevant to all users. However, it never hurts to inform yourself. You might even uncover some hidden feature, or spark an idea for you and your group!</p>
-</blockquote>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-03-11T2125UTC</em></strong></small></p>
 
 <hr>
 
@@ -103,15 +89,15 @@ blockquote {
 
 <ul>
 <li>Expect frequent updates or rapid feature turnover</li>
-<li>Prefer bleeding-edge systems and the "newest" software</li>
+<li>Prefer bleeding-edge systems and the newest software</li>
 <li>Want to customize system-level components immediately</li>
 <li>Have no desire to try using it "as intended" before suggesting changes</li>
 <li>Think that "it no worky" is a valid and supportable bug report</li>
 </ul>
 
-<p><strong>arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the cutting edge, other distributions are likely to serve you better.</strong></p>
+<p><strong>arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the edge, other solutions are likely to serve you better.</strong></p>
 
-<p>If arcOS sounds like a good fit for you or your group, <strong>welcome!</strong> Read on to get the most out of it.</p>
+<p>If arcOS sounds like a good fit for you or your group, welcome! Read on to get the most out of it.</p>
 
 <p><a href="#top">Back to top</a></p>
 
@@ -129,9 +115,9 @@ blockquote {
 <p><strong>As you think about your answers, consider these core arcOS principles:</strong></p>
 
 <ul>
-<li>arcOS, <strong><em>when used as recommended</em></strong>, provides a working baseline of fundamental digital communications software.</li>
-<li>arcOS facilitates rapid individual/team-based learning, experimentation, and troubleshooting.</li>
-<li>arcOS <strong><em>does not</em></strong> provide the knowledge needed to use the included software or perform modifications.</li>
+<li>arcOS provides a working baseline of fundamental digital communications software.</li>
+<li>arcOS facilitates rapid team based learning, experimentation, and troubleshooting.</li>
+<li>arcOS <strong><em>does not</em></strong> provide the knowledge needed to use the software or perform modifications.</li>
 </ul>
 
 <h3><span id="section1-1">1.1 - Hardware Requirements/Recommendations</span></h3>
@@ -166,11 +152,11 @@ blockquote {
 
 <p>Once booted, you'll see a <strong>"Select Operator"</strong> screen. On the first boot, it will be blank, and you should select <strong>"Add new..."</strong>. This will lead to the <strong>"Station Setup"</strong> screen. Here, you should enter your callsign and your Maidenhead grid square (min. 4 characters: <code>EM65</code>). If you have a GPS receiver attached to the system, and it has a valid location fix, the calculated gridsquare may be pre-populated.</p>
 
-<p>Additionally, <strong>"Station Setup"</strong> presents you with a choice of <strong>"QRV Profile"</strong> (a set of user-saved configurations for one or more applications that will be used with a particular purpose in mind). The <strong>"QRV Profile"</strong> defaults to <code>NONE</code>, since you've not created any profiles yet. </p>
+<p>Additionally, <strong>"Station Setup"</strong> presents you with a choice of <strong>"QRV Profile"</strong> (a set of user-saved configurations for one or more applications). On the first boot, <strong>"QRV Profile"</strong> defaults to <code>NONE</code>, since you've not created any profiles yet. </p>
 
-<p>If you wish to use the VARA modems, in the <strong>"VARA"</strong> field select <strong>"ENABLED"</strong>. </p>
+<p>If you wish to use the VARA modems, select <strong>"ENABLED"</strong> in the <strong>"VARA"</strong> field. </p>
 
-<p>Click <strong>"OK"</strong>, and arcOS will configure the session using the callsign and gridsquare provided. The <strong><code>CORE</code></strong> modules will be deployed for the first time, and this stage may take a few minutes. On subsequent boots, this <strong><code>CORE</code></strong> modules deployment will likely be much faster. This slowness is due to the first deployment requiring the creation of some filesystems on the USB device.</p>
+<p>Click <strong>"OK"</strong>, and arcOS will configure the session using the callsign and gridsquare provided. The <strong><code>CORE</code></strong> modules will be deployed for the first time, and this stage may take a few minutes. On subsequent boots, the <strong><code>CORE</code></strong> modules deployment will likely be much faster. This slowness is due to the first deployment requiring the creation of some filesystems on the USB device.</p>
 
 <p>If you enabled VARA, the installers will run during the first deployment. You should click through the installers, leaving all inputs as their default value. The VARA installers will not need to run on subsequent boots.</p>
 
@@ -251,13 +237,40 @@ blockquote {
 
 <h3><span id="section1-6">1.6 - Seeking Support</span></h3>
 
+<p><strong>Please DO NOT use Winlink for support requests!</strong></p>
+
 <p><strong>Support is available primarily via GitHub. <a href="https://github.com/kg4vdk/arcos-linux-modules/discussions">Discussions</a> can be started and <a href="https://github.com/kg4vdk/arcos-linux-modules/issues">issues</a> raised when necessary.</strong></p>
 
-<p>When seeking support consider whether your question/issue is specific to arcOS. Generic questions about "Linux" or "ApplicationXYZ" should be directed to a more appropriate support forum. </p>
+<p>Support and community interaction is also available via IRC. arcOS includes Hexchat (“Menu > Internet > Hexchat) as an IRC client. Hexchat is configured to automatically connect to the #arcOS-Linux channel on the Libera.Chat network, and uses the operator callsign as the “nickname” for the user. Come say hi!</p>
 
-<p>You are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea.</p>
+<p>When seeking support consider whether your question/issue is specific to arcOS. Generic questions about "Linux" or "ApplicationXYZ" should be directed to a more appropriate support forum. You are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea. Be sure to provide the radio and Digirig version you are using, along with a clear and concise description of the problem you've encountered. The following can serve as a template:</p>
 
-<p>If you are unable to provide evidence of effort, you might consider submitting a <a href="https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW">donation</a> along with your support request.</p>
+<blockquote>
+  <p><strong>Steps to reproduce the behavior:</strong>
+ 1. Go to '...' 
+ 2. Click on '....' 
+ 3. Scroll down to '....' 
+ 4. See error </p>
+
+<p><strong>Expected behavior:</strong> Description of what you expected to happen.</p>
+
+<p><strong>What actually happened:</strong> Include any errors, verbatim.</p>
+
+<p><strong>Screenshots:</strong> If applicable, add screenshots to help explain your problem.</p>
+
+<p><strong>Additional context:</strong> Add any other context about the problem.</p>
+</blockquote>
+
+<p>You may be asked to provide a "<strong>QRV REPORT</strong>". Here's how to generate the QRV report:
+  - Open a terminal.
+  - Run the <code>qrv</code> command.
+  - Copy/paste or attach the report to your support request.</p>
+
+<p>You may be asked to provide a "<strong>FULL SYSTEM REPORT</strong>". Here's how to generate the system report:
+  - Select “Menu > System Info”, and select “Upload system information”.
+    - A browser window will open with the text of your system report.
+    - Please, DO NOT copy/paste the full text of the system report.
+    - Instead, copy the link from the browser address bar, and include only the link to the system report.</p>
 
 <blockquote>
   <p><strong>Recommended Reading:</strong></p>

@@ -1,17 +1,5 @@
-<h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-01-29T1634UTC</em></strong></small></p>
-
----
-
-> **Developer Note:**
->
-> Yes, some sections of the manual are labeled as "***MUST READ!***" 😲
->
-> **That's a $#!&-ing clue!** 😉
->
-> Many, if not most, basic support issues or usability complaints stem from improperly set expectations and/or lack of adherence to concepts and recommendations laid out in these sections.
->
-> The rest of the manual is more topically specific, and some sections may not be relevant to all users. However, it never hurts to inform yourself. You might even uncover some hidden feature, or spark an idea for you and your group!
+<h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-03-11T2125UTC</em></strong></small></p>
 
 ---
 
@@ -54,14 +42,14 @@ You can think of arcOS as a solid foundation. By leveraging the persistent stora
 **arcOS might *NOT* be a good fit if you:**
 
 - Expect frequent updates or rapid feature turnover
-- Prefer bleeding-edge systems and the "newest" software
+- Prefer bleeding-edge systems and the newest software
 - Want to customize system-level components immediately
 - Have no desire to try using it "as intended" before suggesting changes
 - Think that "it no worky" is a valid and supportable bug report
 
-**arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the cutting edge, other distributions are likely to serve you better.**
+**arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the edge, other solutions are likely to serve you better.**
 
-If arcOS sounds like a good fit for you or your group, **welcome!** Read on to get the most out of it.
+If arcOS sounds like a good fit for you or your group, welcome! Read on to get the most out of it.
 
 [Back to top](#top)
 
@@ -75,9 +63,9 @@ If arcOS sounds like a good fit for you or your group, **welcome!** Read on to g
 
 **As you think about your answers, consider these core arcOS principles:**
 
-- arcOS, ***when used as recommended***, provides a working baseline of fundamental digital communications software.
-- arcOS facilitates rapid individual/team-based learning, experimentation, and troubleshooting.
-- arcOS ***does not*** provide the knowledge needed to use the included software or perform modifications.
+- arcOS provides a working baseline of fundamental digital communications software.
+- arcOS facilitates rapid team based learning, experimentation, and troubleshooting.
+- arcOS ***does not*** provide the knowledge needed to use the software or perform modifications.
 
 ### <span id="section1-1">1.1 - Hardware Requirements/Recommendations</span>
 - **Laptop/Desktop Computer (x86_64 with min. 8GB RAM)**
@@ -105,11 +93,11 @@ If arcOS sounds like a good fit for you or your group, **welcome!** Read on to g
 
 Once booted, you'll see a **"Select Operator"** screen. On the first boot, it will be blank, and you should select **"Add new..."**. This will lead to the **"Station Setup"** screen. Here, you should enter your callsign and your Maidenhead grid square (min. 4 characters: `EM65`). If you have a GPS receiver attached to the system, and it has a valid location fix, the calculated gridsquare may be pre-populated.
 
-Additionally, **"Station Setup"** presents you with a choice of **"QRV Profile"** (a set of user-saved configurations for one or more applications that will be used with a particular purpose in mind). The **"QRV Profile"** defaults to `NONE`, since you've not created any profiles yet. 
+Additionally, **"Station Setup"** presents you with a choice of **"QRV Profile"** (a set of user-saved configurations for one or more applications). On the first boot, **"QRV Profile"** defaults to `NONE`, since you've not created any profiles yet. 
 
-If you wish to use the VARA modems, in the **"VARA"** field select **"ENABLED"**. 
+If you wish to use the VARA modems, select **"ENABLED"** in the **"VARA"** field. 
 
-Click **"OK"**, and arcOS will configure the session using the callsign and gridsquare provided. The **`CORE`** modules will be deployed for the first time, and this stage may take a few minutes. On subsequent boots, this **`CORE`** modules deployment will likely be much faster. This slowness is due to the first deployment requiring the creation of some filesystems on the USB device.
+Click **"OK"**, and arcOS will configure the session using the callsign and gridsquare provided. The **`CORE`** modules will be deployed for the first time, and this stage may take a few minutes. On subsequent boots, the **`CORE`** modules deployment will likely be much faster. This slowness is due to the first deployment requiring the creation of some filesystems on the USB device.
 
 If you enabled VARA, the installers will run during the first deployment. You should click through the installers, leaving all inputs as their default value. The VARA installers will not need to run on subsequent boots.
 
@@ -180,13 +168,38 @@ The backup and restore functions are designed to be used as a recovery tool, not
 [Back to top](#top)
 
 ### <span id="section1-6">1.6 - Seeking Support</span>
+**Please DO NOT use Winlink for support requests!**
+
 **Support is available primarily via GitHub. [Discussions](https://github.com/kg4vdk/arcos-linux-modules/discussions) can be started and [issues](https://github.com/kg4vdk/arcos-linux-modules/issues) raised when necessary.**
 
-When seeking support consider whether your question/issue is specific to arcOS. Generic questions about "Linux" or "ApplicationXYZ" should be directed to a more appropriate support forum. 
+Support and community interaction is also available via IRC. arcOS includes Hexchat (“Menu > Internet > Hexchat) as an IRC client. Hexchat is configured to automatically connect to the #arcOS-Linux channel on the Libera.Chat network, and uses the operator callsign as the “nickname” for the user. Come say hi!
 
-You are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea.
+When seeking support consider whether your question/issue is specific to arcOS. Generic questions about "Linux" or "ApplicationXYZ" should be directed to a more appropriate support forum. You are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea. Be sure to provide the radio and Digirig version you are using, along with a clear and concise description of the problem you've encountered. The following can serve as a template:
 
-If you are unable to provide evidence of effort, you might consider submitting a [donation](https://www.paypal.com/donate/?hosted_button_id=4SAKRN2MH7NEW) along with your support request.
+> **Steps to reproduce the behavior:**
+>  1. Go to '...' 
+>  2. Click on '....' 
+>  3. Scroll down to '....' 
+>  4. See error 
+>
+> **Expected behavior:** Description of what you expected to happen.
+>
+> **What actually happened:** Include any errors, verbatim.
+>
+> **Screenshots:** If applicable, add screenshots to help explain your problem.
+>
+> **Additional context:** Add any other context about the problem.
+
+You may be asked to provide a "**QRV REPORT**". Here's how to generate the QRV report:
+  - Open a terminal.
+  - Run the `qrv` command.
+  - Copy/paste or attach the report to your support request.
+
+You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate the system report:
+  - Select “Menu > System Info”, and select “Upload system information”.
+    - A browser window will open with the text of your system report.
+    - Please, DO NOT copy/paste the full text of the system report.
+    - Instead, copy the link from the browser address bar, and include only the link to the system report.
 
 > **Recommended Reading:**
 >

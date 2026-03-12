@@ -3,18 +3,6 @@
 
 ---
 
-> **Developer Note:**
->
-> Yes, some sections of the manual are labeled as "***MUST READ!***" 😲
->
-> **That's a $#!&-ing clue!** 😉
->
-> Many, if not most, basic support issues or usability complaints stem from improperly set expectations and/or lack of adherence to concepts and recommendations laid out in these sections.
->
-> The rest of the manual is more topically specific, and some sections may not be relevant to all users. However, it never hurts to inform yourself. You might even uncover some hidden feature, or spark an idea for you and your group!
-
----
-
 ## Table of Contents
 - **[0.0 - Introduction (*MUST READ!*)](#section0-0)**
   - **[0.1 - What is arcOS?](#section0-1)**
@@ -54,14 +42,14 @@ You can think of arcOS as a solid foundation. By leveraging the persistent stora
 **arcOS might *NOT* be a good fit if you:**
 
 - Expect frequent updates or rapid feature turnover
-- Prefer bleeding-edge systems and the "newest" software
+- Prefer bleeding-edge systems and the newest software
 - Want to customize system-level components immediately
 - Have no desire to try using it "as intended" before suggesting changes
 - Think that "it no worky" is a valid and supportable bug report
 
-**arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the cutting edge, other distributions are likely to serve you better.**
+**arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the edge, other solutions are likely to serve you better.**
 
-If arcOS sounds like a good fit for you or your group, **welcome!** Read on to get the most out of it.
+If arcOS sounds like a good fit for you or your group, welcome! Read on to get the most out of it.
 
 [Back to top](#top)
 
