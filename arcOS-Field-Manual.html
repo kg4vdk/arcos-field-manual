@@ -31,7 +31,7 @@ blockquote {
 
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
 
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1949UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1954UTC</em></strong></small></p>
 
 <hr>
 
@@ -188,12 +188,7 @@ blockquote {
 
 <p>Now, after a reboot, your arcOS session will remember the Wi-Fi network, and (if you've selected your <strong>"DEFAULT"</strong> QRV Profile at "Station Setup" time) the Pat Winlink client will remember your password and aliases.</p>
 
-<blockquote>
-  <p><strong>Developer Note:</strong></p>
-
-<p>When naming QRV Profiles, avoid spaces and special characters (hyphens and underscores work well).</p>
-
-<p>QRV Profiles are deployed <em>per application</em> in the following order of preference: "SPECIAL", "DEFAULT", "NONE"</p>
+<p>QRV Profiles are deployed <em>per application</em> in the following order of precedence: "SPECIAL", "DEFAULT", "NONE"</p>
 
 <p><strong>Example:</strong></p>
 
@@ -204,6 +199,11 @@ blockquote {
 <p><strong>THEN</strong> when you select "<code>FD26</code>" at Station Setup, arcOS will deploy the "<code>FD26</code>" configs for those applications that have them, and "<code>DEFAULT</code>" configs for those that don't...</p>
 
 <p><strong>OTHERWISE</strong> applications with no "special" or "default" QRV Profile will have the base arcOS config deployed</p>
+
+<blockquote>
+  <p><strong>Developer Note:</strong></p>
+
+<p>When naming QRV Profiles, avoid spaces and special characters (hyphens and underscores work well).</p>
 </blockquote>
 
 <p><a href="#top">Back to top</a></p>
