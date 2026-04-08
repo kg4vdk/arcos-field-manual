@@ -31,7 +31,7 @@ blockquote {
 
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
 
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2018UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2114UTC</em></strong></small></p>
 
 <hr>
 
@@ -56,7 +56,13 @@ blockquote {
 <ul>
 <li><strong><a href="#section2-1">2.1 - Amateur Radio Software</a></strong></li>
 <li><strong><a href="#section2-2">2.2 - Other Software</a></strong></li>
-<li><strong><a href="#section2-3">2.3 - Persistent Packages</a></strong></li>
+</ul></li>
+<li><strong><a href="#section3-0">3.0 - Customization</a></strong>
+<ul>
+<li><strong><a href="#section3-1">3.1 - Appearance</a></strong></li>
+<li><strong><a href="#section3-2">3.2 - Auto-config</a></strong></li>
+<li><strong><a href="#section3-3">3.3 - Persistent Software</a></strong></li>
+<li><strong><a href="#section3-4">3.3 - User Modules</a></strong></li>
 </ul></li>
 </ul>
 
@@ -389,7 +395,16 @@ blockquote {
 <li>VSCodium (Code Editor)</li>
 </ul>
 
-<h3><span id="section2-3">2.3 - Persistent Software</span></h3>
+<p><a href="#top">Back to top</a></p>
+
+<hr>
+<h2><span id="section3-0">3.0 - Customization</span></h2>
+
+<h3><span id="section3-1">3.1 - Appearance</span></h3>
+
+<h3><span id="section3-2">3.2 - Auto-config</span></h3>
+
+<h3><span id="section3-3">3.3 - Persistent Software</span></h3>
 
 <p>For software not included in arcOS, but available as a deb file, users can utilize the <code>download-packages</code> command in a terminal to cache the packages in persistent storage for installation at boot time, before Station Setup runs. Prior to using this tool, users should test installing the packages manually using <code>apt</code>. Once any dependency issues are resolved, pass the package list to the command as follows:</p>
 
@@ -401,6 +416,17 @@ N0CALL:~ $ download-packages package_1 [package_2 package_3]
 packages without disturbing other groups of packages. Users are encouraged to give the <code>packages-xyz123</code> directory a more memorable name.</p>
 
 <p>If a piece of software is not available from a repository, and the deb file must be manually downloaded, users can manually create a directory for the deb file in <code>/arcHIVE/QRV/.packages</code>.</p>
+
+<h3><span id="section3-4">3.4 - User Modules</span></h3>
+
+<p><a href="#top">Back to top</a></p>
+
+<hr>
+<h2><span id="section4-0">4.0 - Security</span></h2>
+
+<h3><span id="section4-1">4.1 - Passwords</span></h3>
+
+<h3><span id="section4-2">4.2 - Encryption</span></h3>
 
 <p><a href="#top">Back to top</a></p>
 

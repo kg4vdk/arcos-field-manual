@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2018UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2114UTC</em></strong></small></p>
 
 ---
 
@@ -17,7 +17,11 @@
 - **[2.0 - Included Software](#section2-0)**
   - **[2.1 - Amateur Radio Software](#section2-1)**
   - **[2.2 - Other Software](#section2-2)**
-  - **[2.3 - Persistent Packages](#section2-3)**
+- **[3.0 - Customization](#section3-0)**
+  - **[3.1 - Appearance](#section3-1)**
+  - **[3.2 - Auto-config](#section3-2)**
+  - **[3.3 - Persistent Software](#section3-3)**
+  - **[3.3 - User Modules](#section3-4)**
 
 ## <span id="section0-0">0.0 - Introduction (*MUST READ!*)</span>
 ### <span id="section0-1">0.1 - What is arcOS?</span>
@@ -288,7 +292,15 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate t
 - VLC (Multimedia player and streamer)
 - VSCodium (Code Editor)
 
-### <span id="section2-3">2.3 - Persistent Software</span>
+[Back to top](#top)
+
+---
+## <span id="section3-0">3.0 - Customization</span>
+### <span id="section3-1">3.1 - Appearance</span>
+
+### <span id="section3-2">3.2 - Auto-config</span>
+
+### <span id="section3-3">3.3 - Persistent Software</span>
 For software not included in arcOS, but available as a deb file, users can utilize the `download-packages` command in a terminal to cache the packages in persistent storage for installation at boot time, before Station Setup runs. Prior to using this tool, users should test installing the packages manually using `apt`. Once any dependency issues are resolved, pass the package list to the command as follows:
 
 ```
@@ -300,6 +312,14 @@ packages without disturbing other groups of packages. Users are encouraged to gi
 
 If a piece of software is not available from a repository, and the deb file must be manually downloaded, users can manually create a directory for the deb file in `/arcHIVE/QRV/.packages`.
 
+### <span id="section3-4">3.4 - User Modules</span>
+
+[Back to top](#top)
+
+---## <span id="section4-0">4.0 - Security</span>
+### <span id="section4-1">4.1 - Passwords</span>
+
+### <span id="section4-2">4.2 - Encryption</span>
 
 [Back to top](#top)
 
