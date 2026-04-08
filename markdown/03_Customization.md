@@ -1,8 +1,8 @@
 ## <span id="section3-0">3.0 - Customization</span>
 ### <span id="section3-1">3.1 - Appearance</span>
 Users/groups can customize the static desktop background image in two ways. Place the desired `jpg` image(s) in the following location(s):
+  - System-level: `/arcHIVE/.wallpaper.jpg` (set *before* Station Setup)
   - User-specific: `/arcHIVE/QRV/N0CALL/.wallpaper.jpg` (set *after* Station Setup)
-  - System-level: `/arcHIVE/.wallpaper.jpg` (set *after* Station Setup)
 
   Users can also set the desktop background to a slideshow of images. Place the desired slideshow images in a directory named `/arcHIVE/QRV/N0CALL/.slideshow`.
 
