@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1732UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1754UTC</em></strong></small></p>
 
 ---
 
@@ -117,7 +117,7 @@ Once arcOS is ready for use, you'll see a pop-up notification that says **"N0CAL
 - `$HOME/.gnupg` (GPG keys and config files)
 - Calendar
 - Sticky Notes
-- Applications added to the panel
+- Applications added to/rearranged on the panel
 
 **Browse the "Main Menu > arcOS Tools" category for other applications/utilities which offer selective persistence.**
 
@@ -130,6 +130,15 @@ Now, after a reboot, your arcOS session will remember the Wi-Fi network, and (if
 > **Developer Note:**
 >
 > When naming QRV Profiles, avoid spaces and special characters (hyphens and underscores work well).
+>
+> QRV Profiles are deployed *per application* in the following order of preference: "SPECIAL", "DEFAULT", "NONE"
+>
+> For example:
+>
+> **IF** you have "default" settings for FLDigi, Pat, JS8Call, WSJT-X saved to a QRV Profile named "`DEFAULT`"...
+> **AND** you have some "special" Field Day settings for only for Pat and WSJT-X saved to a QRV Profile named "`FD26`"...
+> **THEN** when you select "`FD26`" at Station Setup, arcOS will deploy the "`FD26`" configs for those applications that have them, and "`DEFAULT`" configs for those that don't...
+> **OTHERWISE** applications with no "special" or "default" QRV Profile will have the base arcOS config deployed
 
 [Back to top](#top)
 
