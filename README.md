@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2116UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2118UTC</em></strong></small></p>
 
 ---
 
@@ -298,9 +298,7 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate t
 ## <span id="section3-0">3.0 - Customization</span>
 ### <span id="section3-1">3.1 - Appearance</span>
 
-### <span id="section3-2">3.2 - Auto-config</span>
-
-### <span id="section3-3">3.3 - Persistent Software</span>
+### <span id="section3-2">3.2 - Persistent Software</span>
 For software not included in arcOS, but available as a deb file, users can utilize the `download-packages` command in a terminal to cache the packages in persistent storage for installation at boot time, before Station Setup runs. Prior to using this tool, users should test installing the packages manually using `apt`. Once any dependency issues are resolved, pass the package list to the command as follows:
 
 ```
@@ -312,7 +310,9 @@ packages without disturbing other groups of packages. Users are encouraged to gi
 
 If a piece of software is not available from a repository, and the deb file must be manually downloaded, users can manually create a directory for the deb file in `/arcHIVE/QRV/.packages`.
 
-### <span id="section3-4">3.4 - User Modules</span>
+### <span id="section3-3">3.3 - User Modules</span>
+
+### <span id="section3-4">3.4 - Auto-config</span>
 
 [Back to top](#top)
 
