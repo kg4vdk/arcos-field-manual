@@ -7,6 +7,7 @@ Users/groups can customize the static desktop background image in two ways. Plac
 Users can also set the desktop background to a slideshow of images. Place the desired slideshow images in a directory named `/arcHIVE/QRV/N0CALL/.slideshow`.
 
 > **Developer Note:**
+>
 > Many theme settings can be set from the command line using the `gsettings` utility. To see a full list of configurable items, run:
 >
 > ```
