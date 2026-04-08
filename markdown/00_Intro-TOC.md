@@ -17,6 +17,7 @@
 - **[2.0 - Included Software](#section2-0)**
   - **[2.1 - Amateur Radio Software](#section2-1)**
   - **[2.2 - Other Software](#section2-2)**
+  - **[2.3 - Persistent Packages](#section2-3)**
 
 ## <span id="section0-0">0.0 - Introduction (*MUST READ!*)</span>
 ### <span id="section0-1">0.1 - What is arcOS?</span>

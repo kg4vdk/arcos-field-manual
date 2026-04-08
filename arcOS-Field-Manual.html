@@ -31,7 +31,7 @@ blockquote {
 
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
 
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1954UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2017UTC</em></strong></small></p>
 
 <hr>
 
@@ -56,6 +56,7 @@ blockquote {
 <ul>
 <li><strong><a href="#section2-1">2.1 - Amateur Radio Software</a></strong></li>
 <li><strong><a href="#section2-2">2.2 - Other Software</a></strong></li>
+<li><strong><a href="#section2-3">2.3 - Persistent Packages</a></strong></li>
 </ul></li>
 </ul>
 
@@ -210,7 +211,9 @@ blockquote {
 
 <h3><span id="section1-4">1.4 - QRV Modules</span></h3>
 
-<p>QRV Modules are a part of what makes arcOS flexible. While the ISO image is static and immutable, the QRV Modules are distributed via <a href="https://github.com/kg4vdk/arcos-linux-modules">GitHub repository</a>, and are able to be updated in between ISO releases if needed. In its most basic form, a QRV Module is just a script bundled with any other files needed to accomplish a task. arcOS ships with several <code>CORE</code> modules and a few <code>COMMUNITY</code> modules. </p>
+<p>QRV Modules are a part of what makes arcOS flexible. While the ISO image is static and immutable, the QRV Modules are distributed via <a href="https://github.com/kg4vdk/arcos-linux-modules">GitHub repository</a>, and are able to be updated in between ISO releases if needed. In its most basic form, a QRV Module is just a script bundled with any other files needed to accomplish a task. arcOS ships with several <code>CORE</code> modules and a few <code>COMMUNITY</code> modules.</p>
+
+<p>The QRV Modules are located at <code>/arcHIVE/QRV/N0CALL/arcos-linux-modules</code>.</p>
 
 <p><code>CORE</code> modules provide basic functionality for the included Amateur Radio software. They should not be modified by users, and any user-made changes will be overwritten when the modules are updated.</p>
 
@@ -385,6 +388,19 @@ blockquote {
 <li>VLC (Multimedia player and streamer)</li>
 <li>VSCodium (Code Editor)</li>
 </ul>
+
+<h3><span id="section2-3">2.3 - Persistent Software</span></h3>
+
+<p>For software not included in arcOS, but available as a deb file, users can utilize the <code>download-packages</code> command in a terminal to cache the packages in persistent storage for installation at boot time, before Station Setup runs. Prior to using this tool, users should test installing the packages manually using <code>apt</code>. Once any dependency issues are resolved, pass the package list to the command as follows:</p>
+
+<p><code>
+N0CALL:~ $ download-packages package_1 [package_2 package_3]
+</code></p>
+
+<p>Each time the command is used, the downloaded packages are stored in <code>/arcHIVE/QRV/.packages/packages-xyz123</code>. This allows for users to remove some
+packages without disturbing other groups of packages. Users are encouraged to give the <code>packages-xyz123</code> directory a more memorable name.</p>
+
+<p>If a piece of software is not available from a repository, and the deb file must be manually downloaded, users can manually create a directory for the deb file in <code>.packages</code>.</p>
 
 <p><a href="#top">Back to top</a></p>
 
