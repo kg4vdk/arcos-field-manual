@@ -37,6 +37,7 @@
 - Veracrypt (Disk encryption with strong security based on TrueCrypt)
 - Viking (Mapping and GPS data editor, analyzer and viewer)
 - VLC (Multimedia player and streamer)
+- VSCodium (Code Editor)
 
 [Back to top](#top)
 

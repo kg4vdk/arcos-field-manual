@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1714UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1732UTC</em></strong></small></p>
 
 ---
 
@@ -119,9 +119,13 @@ Once arcOS is ready for use, you'll see a pop-up notification that says **"N0CAL
 - Sticky Notes
 - Applications added to the panel
 
-**For hints about which applications/utilities offer selective persistence, please browse the "Main Menu > arcOS Tools" category.**
+**Browse the "Main Menu > arcOS Tools" category for other applications/utilities which offer selective persistence.**
 
-A good first step as a new arcOS user would be to connect to a Wi-Fi network, then use the **"arcOS Tools > Save Wi-Fi Connection"** utility to ensure that arcOS reconnects to that network after a reboot. A good second step, if you already have a Winlink account, would be to add your Winlink password and a couple frequently used aliases to the Pat Winlink client, via the **"Action > Configure"** utility in Pat. Once set, use **"arcOS Tools > Save Pat Winlink Config"** to save the settings to a QRV Profile named **"DEFAULT"**. Now, after a reboot, your arcOS session will remember the Wi-Fi network, and (if you've selected your **"DEFAULT"** QRV Profile at "Station Setup" time) the Pat Winlink client will remember your password and aliases.
+A good first step as a new arcOS user would be to connect to a Wi-Fi network, then use the **"arcOS Tools > Save Wi-Fi Connection"** utility to ensure that arcOS reconnects to that network after a reboot.
+
+A good second step, if you already have a Winlink account, would be to add your Winlink password and a couple frequently used aliases to the Pat Winlink client, via the **"Action > Configure"** utility in Pat. Once set, use **"arcOS Tools > Save Pat Winlink Config"** to save the settings to a QRV Profile named **"DEFAULT"**.
+
+Now, after a reboot, your arcOS session will remember the Wi-Fi network, and (if you've selected your **"DEFAULT"** QRV Profile at "Station Setup" time) the Pat Winlink client will remember your password and aliases.
 
 > **Developer Note:**
 >
@@ -252,6 +256,7 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate t
 - Veracrypt (Disk encryption with strong security based on TrueCrypt)
 - Viking (Mapping and GPS data editor, analyzer and viewer)
 - VLC (Multimedia player and streamer)
+- VSCodium (Code Editor)
 
 [Back to top](#top)
 
