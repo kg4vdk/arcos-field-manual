@@ -61,7 +61,7 @@ Once arcOS is ready for use, you'll see a pop-up notification that says **"N0CAL
 - `$HOME/.gnupg` (GPG keys and config files)
 - Calendar
 - Sticky Notes
-- Applications added to the panel
+- Applications added to/rearranged on the panel
 
 **Browse the "Main Menu > arcOS Tools" category for other applications/utilities which offer selective persistence.**
 
