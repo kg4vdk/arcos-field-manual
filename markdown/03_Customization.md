@@ -4,7 +4,14 @@ Users/groups can customize the static desktop background image in two ways. Plac
   - System-level: `/arcHIVE/.wallpaper.jpg` (set *before* Station Setup)
   - User-specific: `/arcHIVE/QRV/N0CALL/.wallpaper.jpg` (set *after* Station Setup)
 
-  Users can also set the desktop background to a slideshow of images. Place the desired slideshow images in a directory named `/arcHIVE/QRV/N0CALL/.slideshow`.
+Users can also set the desktop background to a slideshow of images. Place the desired slideshow images in a directory named `/arcHIVE/QRV/N0CALL/.slideshow`.
+
+> **Developer Note:**
+> Many theme settings can be set from the command line using the `gsettings` utility. To see a full list of configurable items, run:
+>
+> ```
+> N0CALL:~ $ gsettings list-recursively
+> ```
 
 ### <span id="section3-2">3.2 - Persistent Software</span>
 For software not included in arcOS, but available as a deb file, users can utilize the `download-packages` command in a terminal to cache the packages in persistent storage for installation at boot time, before Station Setup runs. Prior to using this tool, users should test installing the packages manually using `apt`. Once any dependency issues are resolved, pass the package list to the command as follows:
@@ -21,6 +28,7 @@ If a piece of software is not available from a repository, and the deb file must
 ### <span id="section3-3">3.3 - User Modules</span>
 
 ### <span id="section3-4">3.4 - Auto-config</span>
+Once configured to your liking, you can set arcOS to automatically configure your station with the information saved by “Station Setup”. To enable auto-configuration, simply copy your station configuration from `/arcHIVE/.operators/station-info_$CALLSIGN` to a hidden file named `/arcHIVE/.autoconfig`.
 
 [Back to top](#top)
 

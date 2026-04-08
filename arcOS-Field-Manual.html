@@ -31,7 +31,7 @@ blockquote {
 
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
 
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2156UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2209UTC</em></strong></small></p>
 
 <hr>
 
@@ -408,6 +408,15 @@ blockquote {
 
 <p>Users can also set the desktop background to a slideshow of images. Place the desired slideshow images in a directory named <code>/arcHIVE/QRV/N0CALL/.slideshow</code>.</p>
 
+<blockquote>
+  <p><strong>Developer Note:</strong>
+Many theme settings can be set from the command line using the <code>gsettings</code> utility. To see a full list of configurable items, run:</p>
+
+<p><code>
+N0CALL:~ $ gsettings list-recursively
+</code></p>
+</blockquote>
+
 <h3><span id="section3-2">3.2 - Persistent Software</span></h3>
 
 <p>For software not included in arcOS, but available as a deb file, users can utilize the <code>download-packages</code> command in a terminal to cache the packages in persistent storage for installation at boot time, before Station Setup runs. Prior to using this tool, users should test installing the packages manually using <code>apt</code>. Once any dependency issues are resolved, pass the package list to the command as follows:</p>
@@ -424,6 +433,8 @@ packages without disturbing other groups of packages. Users are encouraged to gi
 <h3><span id="section3-3">3.3 - User Modules</span></h3>
 
 <h3><span id="section3-4">3.4 - Auto-config</span></h3>
+
+<p>Once configured to your liking, you can set arcOS to automatically configure your station with the information saved by “Station Setup”. To enable auto-configuration, simply copy your station configuration from <code>/arcHIVE/.operators/station-info_$CALLSIGN</code> to a hidden file named <code>/arcHIVE/.autoconfig</code>.</p>
 
 <p><a href="#top">Back to top</a></p>
 
