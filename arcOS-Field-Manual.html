@@ -31,7 +31,7 @@ blockquote {
 
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
 
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1758UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1949UTC</em></strong></small></p>
 
 <hr>
 
@@ -228,6 +228,8 @@ blockquote {
 
 <h3><span id="section1-5">1.5 - Backup and Restore</span></h3>
 
+<p><strong><em>The backup and restore functions are designed to be used as a recovery tool, not as a migration tool between releases.</em></strong></p>
+
 <p>To backup the currently configured operator, use the “Menu > arcOS Tools > Backup Operator” utility. This will create a backup of the current operator’s files. The utility will prompt for a location to save the backup. It is recommended to save the backup onto a storage device other than the arcOS persistent storage.</p>
 
 <p><strong>Files included:</strong></p>
@@ -244,12 +246,31 @@ blockquote {
 
 <p>To restore an operator from a backup file, reboot the system, and at the “Select Operator” screen, select “Restore from backup”. A drag-and-drop window will be presented. Open the /arcHIVE drive on the Desktop to access the file browser. Locate the backup file, and drag it into the  window. When the restoration is complete, the Station Setup will be presented, configured for the restored operator.</p>
 
-<p>The backup and restore functions are designed to be used as a recovery tool, not as a migration tool between releases. When restoring a backup containing modules from an older release into a newer release, you may be notified that the backup incompatible. In this scenario, you will be prompted to choose one of the following options:</p>
+<p>When restoring a backup containing modules from an older release into a newer release, you may be notified that the backup incompatible. In this scenario, you will be prompted:</p>
+
+<p><strong>The QRV Modules (<code>arcos-linux-modules</code>) in the backup are a different version than the modules contained in the ISO!</strong></p>
 
 <ul>
-<li><strong>Restore Anyway:</strong> Ignore the incompatibility, and restore the backup.</li>
-<li><strong>Keep Backup Configs Only:</strong> Discard arcos-linux-modules, but restore “SAVED”.</li>
-<li><strong>Discard Modules + Configs:</strong> Discard arcos-linux-modules and “SAVED”, but restore other files (does not remove them from the backup file).</li>
+<li><p>If the release codenames match (e.g. <code>denali</code>), and the Backup Modules <em>ARE NEWER</em> than the ISO Modules: Choose <strong>'Restore Anyway'</strong></p>
+
+<ul>
+<li>Ignores the incompatibility, and restores the whole backup</li>
+<li>Encountered in cases where <code>arcos-linux-modules</code> received an update, you've taken a backup, and are now restoring the backup to a system that did not ship with the updated <code>arcos-linux-modules</code></li>
+</ul></li>
+<li><p>If the release codenames match (e.g. <code>denali</code>), and the Backup Modules <em>ARE OLDER</em> than the ISO Modules: Choose <strong>'Keep Backup Configs Only'</strong></p>
+
+<ul>
+<li>Discards the <code>arcos-linux-modules</code> from the backup, and deploys the version shipped in the ISO</li>
+<li>Restores <code>CALLSIGN/SAVED</code> from the backup</li>
+<li>Common when restoring from a backup made before a 'dash' ISO release (e.g. arcOS-22.2.0-1)</li>
+</ul></li>
+<li><p>To restore only files <em>OTHER THAN</em> the Backup Modules and Configs: Choose <strong>'Discard Backup Modules + Configs'</strong></p>
+
+<ul>
+<li>Discards the <code>arcos-linux-modules</code> from the backup, and deploys the version shipped in the ISO</li>
+<li>Discards <code>CALLSIGN/SAVED</code> from the backup</li>
+<li>Restores remaining files from the backup</li>
+</ul></li>
 </ul>
 
 <p><a href="#top">Back to top</a></p>
