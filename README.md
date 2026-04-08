@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1754UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1756UTC</em></strong></small></p>
 
 ---
 
@@ -133,11 +133,14 @@ Now, after a reboot, your arcOS session will remember the Wi-Fi network, and (if
 >
 > QRV Profiles are deployed *per application* in the following order of preference: "SPECIAL", "DEFAULT", "NONE"
 >
-> For example:
+> Example:
 >
 > **IF** you have "default" settings for FLDigi, Pat, JS8Call, WSJT-X saved to a QRV Profile named "`DEFAULT`"...
+>
 > **AND** you have some "special" Field Day settings for only for Pat and WSJT-X saved to a QRV Profile named "`FD26`"...
+>
 > **THEN** when you select "`FD26`" at Station Setup, arcOS will deploy the "`FD26`" configs for those applications that have them, and "`DEFAULT`" configs for those that don't...
+>
 > **OTHERWISE** applications with no "special" or "default" QRV Profile will have the base arcOS config deployed
 
 [Back to top](#top)
