@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2114UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2116UTC</em></strong></small></p>
 
 ---
 
@@ -316,7 +316,8 @@ If a piece of software is not available from a repository, and the deb file must
 
 [Back to top](#top)
 
----## <span id="section4-0">4.0 - Security</span>
+---
+## <span id="section4-0">4.0 - Security</span>
 ### <span id="section4-1">4.1 - Passwords</span>
 
 ### <span id="section4-2">4.2 - Encryption</span>
