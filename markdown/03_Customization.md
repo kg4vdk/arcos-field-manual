@@ -1,5 +1,10 @@
 ## <span id="section3-0">3.0 - Customization</span>
 ### <span id="section3-1">3.1 - Appearance</span>
+Users/groups can customize the static desktop background image in two ways. Place the desired `jpg` image(s) in the following location(s):
+  - User-specific: `/arcHIVE/QRV/N0CALL/.wallpaper.jpg` (set *after* Station Setup)
+  - System-level: `/arcHIVE/.wallpaper.jpg` (set *after* Station Setup)
+
+  Users can also set the desktop background to a slideshow of images. Place the desired slideshow images in a directory named `/arcHIVE/QRV/N0CALL/.slideshow`.
 
 ### <span id="section3-2">3.2 - Persistent Software</span>
 For software not included in arcOS, but available as a deb file, users can utilize the `download-packages` command in a terminal to cache the packages in persistent storage for installation at boot time, before Station Setup runs. Prior to using this tool, users should test installing the packages manually using `apt`. Once any dependency issues are resolved, pass the package list to the command as follows:
