@@ -1,5 +1,5 @@
-<h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Xanadu</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-03-11T2125UTC</em></strong></small></p>
+<h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T1714UTC</em></strong></small></p>
 
 ---
 
@@ -45,7 +45,7 @@ You can think of arcOS as a solid foundation. By leveraging the persistent stora
 - Prefer bleeding-edge systems and the newest software
 - Want to customize system-level components immediately
 - Have no desire to try using it "as intended" before suggesting changes
-- Think that "it no worky" is a valid and supportable bug report
+- Think that "it no worky" is a valid and supportable bug report ;-)
 
 **arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the edge, other solutions are likely to serve you better.**
 
@@ -68,6 +68,7 @@ If arcOS sounds like a good fit for you or your group, welcome! Read on to get t
 - arcOS ***does not*** provide the knowledge needed to use the software or perform modifications.
 
 ### <span id="section1-1">1.1 - Hardware Requirements/Recommendations</span>
+
 - **Laptop/Desktop Computer (x86_64 with min. 8GB RAM)**
 - **USB Drive (min. 16GB, USB 3.0 *strongly* recommended)**
 - **Digirig Mobile + Cable (Lite and DR891 *NOT* supported)**
@@ -78,9 +79,9 @@ If arcOS sounds like a good fit for you or your group, welcome! Read on to get t
 
 > **Developer Note:**
 >
-> 8GB RAM is sufficient for "normal" usage. Advanced users may require more RAM in order to take advantage of some features. Likewise, a 16GB USB drive may not provide the amount of persistent storage desired. For the purposes of use with arcOS, the "CAT Config" of the Digirig does not matter (Logic level, RS232, CI-V, TX500).
+> 8GB RAM is sufficient for "normal" usage. Advanced users may require more RAM in order to take advantage of some features. Likewise, a 16GB USB drive may not provide the amount of persistent storage desired. For the purposes of basic use with arcOS, the "CAT Config" of the Digirig does not matter (Logic level, RS232, CI-V, TX500). If you intend to configure CAT control via the Digirig interface, you may need to research which model is appropriate for use with your radio.
 >
-> Some popular transceivers are equipped with an internal soundcard. That's cool! But, arcOS doesn't care. arcOS standardizes on the use of a Digirig Mobile device as the computer-to-radio interface to offer "just works" functionality. Many of the transceivers with internal soundcards are also supported by one or more Digirig cables. Please conduct your own research to find an appropriate cable for your transceiver. If you choose to proceed with using the internal soundcard instead of a Digirig, do not expect developer support.
+> Some popular transceivers are equipped with an internal soundcard. However, arcOS standardizes on the use of a Digirig Mobile device as the computer-to-radio interface to offer "just works" functionality. Many of the transceivers with internal soundcards are also supported by one or more Digirig cables. Please conduct your own research to find an appropriate cable for your transceiver.
 >
 > The Digirig Lite and DR891 are not supported due to the use of CM108 PTT (which is not supported by all included applications) and their specific transceiver requirement, respectively.
 >
@@ -139,7 +140,7 @@ Users/groups are encouraged to create their own `USER` modules/scripts to extend
 
 `USER` modules ***ARE NOT*** overwritten by module updates.
 
-When an update for the QRV Modules is available, users will be notified by the appearance of a "refresh" icon () in the system information displayed at the bottom right of the desktop window. A pop-up notification will also be shown containing a link to learn more about the update.
+When an update for the QRV Modules is available, users will be notified by the appearance of a "refresh" icon (🗘) in the system information displayed at the bottom right of the desktop window. A pop-up notification will also be shown containing a link to learn more about the update.
 
 To update the QRV Modules, use “Menu > arcOS Tools > Update QRV Modules.”
 
@@ -149,6 +150,7 @@ To update the QRV Modules, use “Menu > arcOS Tools > Update QRV Modules.”
 To backup the currently configured operator, use the “Menu > arcOS Tools > Backup Operator” utility. This will create a backup of the current operator’s files. The utility will prompt for a location to save the backup. It is recommended to save the backup onto a storage device other than the arcOS persistent storage.
 
 **Files included:**
+
 - `/arcHIVE/.station-info`
 - `/arcHIVE/.operators/N0CALL_station-info`
 - `/arcHIVE/QRV/N0CALL/*`   **<-- If you want it in your backup, keep it in your callsign directory!** 
@@ -172,15 +174,16 @@ The backup and restore functions are designed to be used as a recovery tool, not
 
 **Support is available primarily via GitHub. [Discussions](https://github.com/kg4vdk/arcos-linux-modules/discussions) can be started and [issues](https://github.com/kg4vdk/arcos-linux-modules/issues) raised when necessary.**
 
-Support and community interaction is also available via IRC. arcOS includes Hexchat (“Menu > Internet > Hexchat) as an IRC client. Hexchat is configured to automatically connect to the #arcOS-Linux channel on the Libera.Chat network, and uses the operator callsign as the “nickname” for the user. Come say hi!
+Support and community interaction is also available via IRC. arcOS includes Hexchat (“Menu > Internet > Hexchat") as an IRC client. Hexchat is configured to automatically connect to the #arcOS-Linux channel on the Libera.Chat network, and uses the operator callsign as the “nickname” for the user. Come say hi!
 
 When seeking support consider whether your question/issue is specific to arcOS. Generic questions about "Linux" or "ApplicationXYZ" should be directed to a more appropriate support forum. You are expected to provide details about what you have already tried/investigated, as well as any context necessary for readers to comprehend your issue or idea. Be sure to provide the radio and Digirig version you are using, along with a clear and concise description of the problem you've encountered. The following can serve as a template:
 
 > **Steps to reproduce the behavior:**
+>
 >  1. Go to '...' 
 >  2. Click on '....' 
 >  3. Scroll down to '....' 
->  4. See error 
+>  4. See behavior '...' 
 >
 > **Expected behavior:** Description of what you expected to happen.
 >
@@ -191,11 +194,13 @@ When seeking support consider whether your question/issue is specific to arcOS. 
 > **Additional context:** Add any other context about the problem.
 
 You may be asked to provide a "**QRV REPORT**". Here's how to generate the QRV report:
+
   - Open a terminal.
   - Run the `qrv` command.
   - Copy/paste or attach the report to your support request.
 
 You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate the system report:
+
   - Select “Menu > System Info”, and select “Upload system information”.
     - A browser window will open with the text of your system report.
     - Please, DO NOT copy/paste the full text of the system report.
@@ -234,17 +239,13 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate t
 > 1. CAT control isolates the operator from their own equipment, often exposing a lack of proficiency when it is not available.
 > 2. CAT control introduces extra complexity with regard to troubleshooting, with which many inexperienced users aren't prepared to engage.
 > 3. Attempting to maintain support for users of every past, present, and future transceiver is not feasible.
->
-> **arcOS aims to help operators become proficient with digital modes and the underlying software, without creating "appliance operators".**
->
-> **IF YOU ARE ADAMANT THAT YOU *NEED* CAT/RIG CONTROL: You should have no problem configuring it yourself within arcOS, then saving that configuration as a "QRV Profile".**
 
 ### <span id="section2-2">2.2 - Other Software</span>
+- Audacity (Audio Editor)
+- GIMP (Image Editor)
+- Hexchat (IRC Client)
 - Kleopatra (Certificate Manager and Unified Cryptography GUI)
 - Localsend (Cross-platform File Sharing)
-- GIMP (Image Editor)
-- Audacity (Audio Editor)
-- Hexchat (IRC Client)
 - RTL-SDR (Software defined radio receiver for Realtek RTL2832U)
 - Shotcut (Video Editor)
 - SkyAware (ADS-B Visualizer)

@@ -12,7 +12,7 @@ cat <<EOF > ../arcOS-Field-Manual.html
 <head>
 <style>
 body {
-	font-family: monospace;
+	font-family: sans;
 	font-size: 1em;
 }
 h1,h2 {

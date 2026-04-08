@@ -24,17 +24,13 @@
 > 1. CAT control isolates the operator from their own equipment, often exposing a lack of proficiency when it is not available.
 > 2. CAT control introduces extra complexity with regard to troubleshooting, with which many inexperienced users aren't prepared to engage.
 > 3. Attempting to maintain support for users of every past, present, and future transceiver is not feasible.
->
-> **arcOS aims to help operators become proficient with digital modes and the underlying software, without creating "appliance operators".**
->
-> **IF YOU ARE ADAMANT THAT YOU *NEED* CAT/RIG CONTROL: You should have no problem configuring it yourself within arcOS, then saving that configuration as a "QRV Profile".**
 
 ### <span id="section2-2">2.2 - Other Software</span>
+- Audacity (Audio Editor)
+- GIMP (Image Editor)
+- Hexchat (IRC Client)
 - Kleopatra (Certificate Manager and Unified Cryptography GUI)
 - Localsend (Cross-platform File Sharing)
-- GIMP (Image Editor)
-- Audacity (Audio Editor)
-- Hexchat (IRC Client)
 - RTL-SDR (Software defined radio receiver for Realtek RTL2832U)
 - Shotcut (Video Editor)
 - SkyAware (ADS-B Visualizer)
