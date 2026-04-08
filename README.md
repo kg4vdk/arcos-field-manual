@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2017UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-08T2018UTC</em></strong></small></p>
 
 ---
 
@@ -298,7 +298,7 @@ N0CALL:~ $ download-packages package_1 [package_2 package_3]
 Each time the command is used, the downloaded packages are stored in `/arcHIVE/QRV/.packages/packages-xyz123`. This allows for users to remove some
 packages without disturbing other groups of packages. Users are encouraged to give the `packages-xyz123` directory a more memorable name.
 
-If a piece of software is not available from a repository, and the deb file must be manually downloaded, users can manually create a directory for the deb file in `.packages`.
+If a piece of software is not available from a repository, and the deb file must be manually downloaded, users can manually create a directory for the deb file in `/arcHIVE/QRV/.packages`.
 
 
 [Back to top](#top)
