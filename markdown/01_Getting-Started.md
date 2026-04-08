@@ -76,8 +76,8 @@ Now, after a reboot, your arcOS session will remember the Wi-Fi network, and (if
 > When naming QRV Profiles, avoid spaces and special characters (hyphens and underscores work well).
 >
 > QRV Profiles are deployed *per application* in the following order of preference: "SPECIAL", "DEFAULT", "NONE"
->
-> Example:
+
+> **Example:**
 >
 > **IF** you have "default" settings for FLDigi, Pat, JS8Call, WSJT-X saved to a QRV Profile named "`DEFAULT`"...
 >
