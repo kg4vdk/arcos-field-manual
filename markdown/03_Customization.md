@@ -15,7 +15,7 @@ Users can also set the desktop background to a slideshow of images. Place the de
 > ```
 
 ### <span id="section3-2">3.2 - Persistent Software</span>
-For software not included in arcOS, but available as a deb file, users can utilize the `download-packages` command in a terminal to cache the packages in persistent storage for installation at boot time, before Station Setup runs. Prior to using this tool, users should test installing the packages manually using `apt`. Once any dependency issues are resolved, pass the package list to the command as follows:
+For software not included in arcOS, but available as a deb package file, users can utilize the `download-packages` command in a terminal to cache the packages in persistent storage for installation at boot time, before Station Setup runs. Prior to using this tool, users should test installing the packages manually using `apt`. Once any dependency issues are resolved, pass the package list to the command as follows:
 
 ```
 N0CALL:~ $ download-packages package_1 [package_2 package_3]
