@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-09T0024UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-09T1503UTC</em></strong></small></p>
 
 ---
 
@@ -22,6 +22,9 @@
   - **[3.2 - Auto-config](#section3-2)**
   - **[3.3 - Persistent Software](#section3-3)**
   - **[3.3 - User Modules](#section3-4)**
+- **[4.0 - Security](#section4-0)**
+  - **[4.1 - Passwords](#section4-1)**
+  - **[4.2 - Encryption](#section4-2)**
 
 ## <span id="section0-0">0.0 - Introduction (*MUST READ!*)</span>
 ### <span id="section0-1">0.1 - What is arcOS?</span>
