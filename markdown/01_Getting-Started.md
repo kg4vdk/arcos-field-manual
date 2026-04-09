@@ -96,15 +96,15 @@ The QRV Modules are located at `/arcHIVE/QRV/N0CALL/arcos-linux-modules`.
 
 `CORE` modules provide basic functionality for the included Amateur Radio software. They should not be modified by users, and any user-made changes will be	overwritten when the modules are updated.
 
-`COMMUNITY` modules are built and maintained by community members, and can 	provide useful functionality beyond what is included in arcOS. Changes to the `COMMUNITY` modules will also be overwritten when the QRV Modules are updated. 
-
-Users/groups are encouraged to create their own `USER` modules/scripts to extend or modify functionality. A private or public repository on GitHub can be a great way for groups to share modules. In reality, all `COMMUNITY` modules are `USER` modules...just written in a way that works for any other user. Take a look at some of the `COMMUNITY` and `CORE` modules if you're looking for ideas to get your own module started.
+`COMMUNITY` modules are built and maintained by community members, and can 	provide useful functionality beyond what is included in arcOS. Changes to the `COMMUNITY` modules will also be overwritten when the QRV Modules are updated. In reality, all `COMMUNITY` modules are `USER` modules...just written in a way that works for any other user.
 
 `USER` modules ***ARE NOT*** overwritten by module updates.
 
 When an update for the QRV Modules is available, users will be notified by the appearance of a "refresh" icon (🗘) in the system information displayed at the bottom right of the desktop window. A pop-up notification will also be shown containing a link to learn more about the update.
 
 To update the QRV Modules, use “Menu > arcOS Tools > Update QRV Modules.”
+
+`USER` modules ***ARE NOT*** overwritten by module updates.
 
 [Back to top](#top)
 
