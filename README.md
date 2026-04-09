@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-09T1557UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-09T1600UTC</em></strong></small></p>
 
 ---
 
@@ -327,7 +327,7 @@ packages without disturbing other groups of packages. Users are encouraged to gi
 If a piece of software is not available from a repository, and the deb file must be manually downloaded, users can manually create a directory for the deb file in `/arcHIVE/QRV/.packages`.
 
 ### <span id="section3-3">3.3 - User Modules</span>
-Users/groups are encouraged to create their own `USER` modules/scripts to extend or modify functionality. A private or public [https://github.com/kg4vdk/kg4vdk-user-modules](repository on GitHub) can be a great way for groups to share modules. Take a look at some of the `COMMUNITY` and `CORE` modules if you're looking for ideas to get your own module started.
+Users/groups are encouraged to create their own `USER` modules/scripts to extend or modify functionality. A private or public [repository on GitHub](https://github.com/kg4vdk/kg4vdk-user-modules) can be a great way for groups to share modules. Take a look at some of the `COMMUNITY` and `CORE` modules if you're looking for ideas to get your own module started.
 
 `USER` modules can be used to personalize the system appearance, customize system preferences, install software, or do just about anything a user wants to do at Station Setup runtime. If it can be done from the command line and doesn't require a system restart/logout to work, it's a good candidate to be handled by a `USER` module.
 
