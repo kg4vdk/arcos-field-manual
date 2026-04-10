@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-10T1451UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-10T1558UTC</em></strong></small></p>
 
 ---
 
@@ -55,7 +55,7 @@ You can think of arcOS as a solid foundation. By leveraging the persistent stora
 - Have no desire to try using it "as intended" before suggesting changes
 - Think that "it no worky" is a valid and supportable bug report ;-)
 
-**arcOS is built to be stable, teachable, and repeatable. If your goal is constant tinkering or living on the edge, other solutions are likely to serve you better.**
+**arcOS is built to be stable, shareable, teachable, and repeatable. If your goal is living on the edge, other solutions are likely to serve you better.**
 
 If arcOS sounds like a good fit for you or your group, welcome! Read on to get the most out of it.
 
