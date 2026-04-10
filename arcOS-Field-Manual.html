@@ -31,7 +31,7 @@ blockquote {
 
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
 
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-10T1558UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-10T1609UTC</em></strong></small></p>
 
 <hr>
 
@@ -162,7 +162,9 @@ blockquote {
 
 <p><strong>The first time arcOS is booted, any free space on the USB device is configured as an exFAT filesystem (<code>/arcHIVE</code>) to be used as persistent storage. Any files not saved in this partition will be lost when the system is powered off/rebooted.</strong></p>
 
-<p>Once booted, you'll see a <strong>"Select Operator"</strong> screen. On the first boot, it will be blank, and you should select <strong>"Add new..."</strong>. This will lead to the <strong>"Station Setup"</strong> screen. Here, you should enter your callsign and your Maidenhead grid square (min. 4 characters: <code>EM65</code>). If you have a GPS receiver attached to the system, and it has a valid location fix, the calculated gridsquare may be pre-populated.</p>
+<p>Once booted, you'll see a <strong>"Select Operator"</strong> screen. On the first boot, it will be blank, and you should select <strong>"Add new..."</strong>.</p>
+
+<p>This will lead to the <strong>"Station Setup"</strong> screen. Enter your callsign and your Maidenhead grid square (min. 4 characters: e.g. <code>EM65</code>). If you have a GPS receiver attached to the system, and it has a valid location fix, the calculated gridsquare may already be pre-populated.</p>
 
 <p>Additionally, <strong>"Station Setup"</strong> presents you with a choice of <strong>"QRV Profile"</strong> (a set of user-saved configurations for one or more applications). On the first boot, <strong>"QRV Profile"</strong> defaults to <code>NONE</code>, since you've not created any profiles yet. </p>
 
@@ -173,6 +175,16 @@ blockquote {
 <p>If you enabled VARA, the installers will run during the first deployment. You should click through the installers, leaving all inputs as their default value. The VARA installers will not need to run on subsequent boots.</p>
 
 <p>Once arcOS is ready for use, you'll see a pop-up notification that says <strong>"N0CALL is QRV!"</strong></p>
+
+<p>In the lower right of the desktop you'll find the <strong>Station Information</strong> display provided by <code>conky</code>. This display contains the following information:</p>
+
+<ul>
+<li>Current operator callsign</li>
+<li>Gridsquare and coordinates if valid GPS fix available, otherwise gridsquare entered at <strong>Station Setup</strong>
+<ul>
+<li>Clock icon () displayed if GPS is being used as the system time source</li>
+</ul></li>
+</ul>
 
 <p><a href="#top">Back to top</a></p>
 
