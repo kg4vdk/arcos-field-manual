@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-10T1609UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-10T1612UTC</em></strong></small></p>
 
 ---
 
@@ -118,7 +118,7 @@ In the lower right of the desktop you'll find the **Station Information** displa
 
  - Current operator callsign
  - Gridsquare and coordinates if valid GPS fix available, otherwise gridsquare entered at **Station Setup**
-   - Clock icon () displayed if GPS is being used as the system time source
+   - Clock icon (⏲) displayed if GPS is being used as the system time source
 
 [Back to top](#top)
 
