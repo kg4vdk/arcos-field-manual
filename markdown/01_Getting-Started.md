@@ -55,6 +55,13 @@ In the lower right of the desktop you'll find the **Station Information** displa
  - Current operator callsign
  - Gridsquare and coordinates if valid GPS fix available, otherwise gridsquare entered at **Station Setup**
    - Clock icon (⏲) displayed if GPS is being used as the system time source
+- arcOS ISO and QRV Modules version
+- Deployed QRV Profile
+- Boot device and system uptime
+- CPU and RAM usage
+- Live OS and `arcHIVE` usage
+- IP address if connected to a network
+  - Screen icon (🖵) if Desktop Sharing is enabled
 
 [Back to top](#top)
 
