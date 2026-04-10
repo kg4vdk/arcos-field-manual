@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-10T1450UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-10T1451UTC</em></strong></small></p>
 
 ---
 
@@ -24,7 +24,7 @@
   - **[3.3 - User Modules](#section3-4)**
 - **[4.0 - Security](#section4-0)**
   - **[4.1 - Passwords](#section4-1)**
-  - **[4.2 - Encryption](#section4-2)**
+  - **[4.2 - Boot Device Encryption](#section4-2)**
 
 ## <span id="section0-0">0.0 - Introduction (*MUST READ!*)</span>
 ### <span id="section0-1">0.1 - What is arcOS?</span>
@@ -347,7 +347,7 @@ By default, there is no user password set in arcOS. Users can set an individual 
 
 Additionally, `gnome-keyring` provides a login keyring. By default this keyring is unencrypted. Users may choose to encrypt the keyring with a password by opening the "Menu > Accessories > Passwords & Keys" utility. Then, right-click on the "Login" folder under the "Passwords" section and select "Change Password." If this password is set, you will be prompted for the keyring password at the next startup after Station Setup has completed.
 
-### <span id="section4-2">4.2 - Encryption</span>
+### <span id="section4-2">4.2 - Boot Device Encryption</span>
 Users may want to prevent unauthorized access to any personal files (`arcHIVE`) on the arcOS boot device. In this case, a LUKS encrypted `/arcHIVE` can be manually created. Once created, users will be prompted to unlock the encrypted `arcHIVE` before being presented with Station Setup 
 
 **Note:** use of LUKS encryption will interfere with use of `.autoconfig`.

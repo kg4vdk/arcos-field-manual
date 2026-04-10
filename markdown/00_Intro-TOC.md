@@ -24,7 +24,7 @@
   - **[3.3 - User Modules](#section3-4)**
 - **[4.0 - Security](#section4-0)**
   - **[4.1 - Passwords](#section4-1)**
-  - **[4.2 - Encryption](#section4-2)**
+  - **[4.2 - Boot Device Encryption](#section4-2)**
 
 ## <span id="section0-0">0.0 - Introduction (*MUST READ!*)</span>
 ### <span id="section0-1">0.1 - What is arcOS?</span>
