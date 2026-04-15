@@ -1,7 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-15T2004UTC</em></strong></small></p>
-
----
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-15T2017UTC</em></strong></small></p>
 
 ## Table of Contents
 - **[0.0 - Introduction (*MUST READ!*)](#section0-0)**
@@ -34,6 +32,7 @@ arcOS is intentionally built as a platform, and prioritizes suitability for grou
 [Back to top](#top)
 
 ---
+## <span id="section1-0">1.0 - Getting Started</span> (***MUST READ!***)
 ### <span id="section1-1">1.1 - Hardware Requirements</span>
 
 - **Laptop/Desktop Computer (x86_64 with min. 8GB RAM)**
@@ -222,7 +221,7 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate t
 
 [Back to top](#top)
 
-## <span id="section1-0">1.0 - Getting Started</span> (***MUST READ!***)
+## <span id="section2-0">2.0 - Included Software</span>
 ### <span id="section2-1">2.1 - Amateur Radio Software</span>
 - ARDOP 1.0.4.1.3 (Soundcard Modem)
 - Direwolf 1.7 (Packet Modem)
@@ -260,7 +259,7 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate t
 
 [Back to top](#top)
 
----## <span id="section2-0">2.0 - Included Software</span>
+---## <span id="section3-0">3.0 - Customization</span>
 ### <span id="section3-1">3.1 - Appearance</span>
 Users/groups can customize the static desktop background image in two ways. Place the desired `jpg` image(s) in the following location(s):
   - System-level: `/arcHIVE/.wallpaper.jpg` (set *before* Station Setup)
@@ -300,7 +299,7 @@ Once configured to your liking, you can set arcOS to automatically configure you
 [Back to top](#top)
 
 ---
-## <span id="section3-0">3.0 - Customization</span>
+## <span id="section4-0">4.0 - Security</span>
 ### <span id="section4-1">4.1 - Passwords</span>
 By default, there is no user password set in arcOS. Users can set an individual password using the `set-password` command. This will set the password used when unlocking the screen as well as for some graphical administrative utilities. The saved password is stored in hashed form at `/arcHIVE/QRV/N0CALL/.passwd`.
 
@@ -313,4 +312,3 @@ Users may want to prevent unauthorized access to any personal files (`arcHIVE`) 
 [Back to top](#top)
 
 ---
-## <span id="section4-0">4.0 - Security</span>

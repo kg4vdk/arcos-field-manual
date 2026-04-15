@@ -1,8 +1,6 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
 <p style="text-align: right;"><small><strong><em>Revised: YYYY-MM-DD</em></strong></small></p>
 
----
-
 ## Table of Contents
 - **[0.0 - Introduction (*MUST READ!*)](#section0-0)**
 - **[1.0 - Getting Started (*MUST READ!*)](#section1-0)**
