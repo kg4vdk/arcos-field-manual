@@ -1,14 +1,12 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-10T1638UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-15T2004UTC</em></strong></small></p>
 
 ---
 
 ## Table of Contents
 - **[0.0 - Introduction (*MUST READ!*)](#section0-0)**
-  - **[0.1 - What is arcOS?](#section0-1)**
-  - **[0.2 - Is arcOS the right tool for me?](#section0-2)**
 - **[1.0 - Getting Started (*MUST READ!*)](#section1-0)**
-  - **[1.1 - Hardware Requirements/Recommendations](#section1-1)**
+  - **[1.1 - Hardware Requirements](#section1-1)**
   - **[1.2 - First Boot Experience](#section1-2)**
   - **[1.3 - Persistent Storage and Configurations](#section1-3)**
   - **[1.4 - QRV Modules](#section1-4)**
@@ -19,63 +17,24 @@
   - **[2.2 - Other Software](#section2-2)**
 - **[3.0 - Customization](#section3-0)**
   - **[3.1 - Appearance](#section3-1)**
-  - **[3.2 - Auto-config](#section3-2)**
-  - **[3.3 - Persistent Software](#section3-3)**
-  - **[3.3 - User Modules](#section3-4)**
+  - **[3.2 - Persistent Software](#section3-2)**
+  - **[3.3 - User Modules](#section3-3)**
+  - **[3.4 - Autoconfig](#section3-4)**
 - **[4.0 - Security](#section4-0)**
   - **[4.1 - Passwords](#section4-1)**
   - **[4.2 - Boot Device Encryption](#section4-2)**
-
+  
 ## <span id="section0-0">0.0 - Introduction (*MUST READ!*)</span>
-### <span id="section0-1">0.1 - What is arcOS?</span>
 **The *Amateur Radio Community Operating System (arcOS)* is a bootable live Linux distribution installed on a USB drive, and it is built to "just work" with the affordable Digirig device. arcOS is founded on the belief that digital communications within communities of operators can be accessible and easy to use for ALL, regardless of license class or experience.**
 
-arcOS is intentionally built as a platform, not a constantly shifting experiment. It delivers a "known-good" baseline of tools and workflows so time can be spent operating, learning, building, and teaching...not troubleshooting surprise system changes and breakages.
+arcOS is intentionally built as a platform, and prioritizes suitability for group use. It delivers a working baseline of tools and workflows so time can be spent operating, learning, building, and teaching...not troubleshooting surprise system changes and breakages. The live nature of the system allows inevitable mistakes to be quickly undone by rebooting the system. By leveraging the persistent storage and modularity features available, users and groups can layer their own data, configurations, and workflows on top. It's even possible to share modular solutions to interesting problems over-the-air with others in your group!
 
-[Back to top](#top)
-
-### <span id="section0-2">0.2 - Is arcOS the right tool for me?</span>
-**arcOS is designed to make operating and training easier, especially when there are multiple people involved. Individuals benefit for the same reasons as groups.**
-
-**arcOS might be a good fit if you:**
-
-- Value reliability over novelty
-- Want portability across multiple machines and/or operators
-- Want a platform that works in field, shack, or classroom settings
-- Are comfortable waiting for deliberate, well-tested releases
-- Appreciate the ability to experiment safely before commiting changes to persistence
-
-You can think of arcOS as a solid foundation. By leveraging the persistent storage features available, users and groups can layer their own data, configurations, and workflows on top...all without destabilizing the underlying system.
-
-**arcOS might *NOT* be a good fit if you:**
-
-- Expect frequent updates or rapid feature turnover
-- Prefer bleeding-edge systems and the newest software
-- Want to customize system-level components immediately
-- Have no desire to try using it "as intended" before suggesting changes
-- Think that "it no worky" is a valid and supportable bug report ;-)
-
-**arcOS is built to be stable, shareable, teachable, and repeatable. If your goal is living on the edge, other solutions are likely to serve you better.**
-
-If arcOS sounds like a good fit for you or your group, welcome! Read on to get the most out of it.
+**If arcOS sounds like a good fit for you or your group, welcome! Read on to get the most out of it.**
 
 [Back to top](#top)
 
 ---
-## <span id="section1-0">1.0 - Getting Started</span> (***MUST READ!***)
-**Before you get started, ask yourself:**
-
-- Why am I interested in arcOS?
-- What do I hope arcOS helps me accomplish?
-- How do I think arcOS can help me?
-
-**As you think about your answers, consider these core arcOS principles:**
-
-- arcOS provides a working baseline of fundamental digital communications software.
-- arcOS facilitates rapid team based learning, experimentation, and troubleshooting.
-- arcOS ***does not*** provide the knowledge needed to use the software or perform modifications.
-
-### <span id="section1-1">1.1 - Hardware Requirements/Recommendations</span>
+### <span id="section1-1">1.1 - Hardware Requirements</span>
 
 - **Laptop/Desktop Computer (x86_64 with min. 8GB RAM)**
 - **USB Drive (min. 16GB, USB 3.0 *strongly* recommended)**
@@ -96,7 +55,6 @@ If arcOS sounds like a good fit for you or your group, welcome! Read on to get t
 > While a GPS receiver is not strictly required, it is extremely useful in "off-grid" situations for maintaining an accurate system clock. Some applications may also use the provided GPS location if it is available.
 
 [Back to top](#top)
-
 ### <span id="section1-2">1.2 - First Boot Experience</span>
 **The first time arcOS is booted, any free space on the USB device is configured as an exFAT filesystem (`/arcHIVE`) to be used as persistent storage. Any files not saved in this partition will be lost when the system is powered off/rebooted.**
 
@@ -128,7 +86,6 @@ In the lower right of the desktop you'll find the **Station Information** displa
   - Screen icon (🖵) if Desktop Sharing is enabled
 
 [Back to top](#top)
-
 ### <span id="section1-3">1.3 - Persistent Storage and Configurations</span>
 **Some applications are configured to use persistence by default, and others allow for selective saving of configurations to a "QRV Profile".**
 
@@ -167,7 +124,6 @@ QRV Profiles are deployed *per application* in the following order of precedence
 > When naming QRV Profiles, avoid spaces and special characters (hyphens and underscores work well).
 
 [Back to top](#top)
-
 ### <span id="section1-4">1.4 - QRV Modules</span>
 QRV Modules are a part of what makes arcOS flexible. While the ISO image is static and immutable, the QRV Modules are distributed via [GitHub repository](https://github.com/kg4vdk/arcos-linux-modules), and are able to be updated in between ISO releases if needed. In its most basic form, a QRV Module is just a script bundled with any other files needed to accomplish a task. arcOS ships with several `CORE` modules and a few `COMMUNITY` modules.
 
@@ -186,7 +142,6 @@ To update the QRV Modules, use “Menu > arcOS Tools > Update QRV Modules.”
 `USER` modules ***ARE NOT*** overwritten by module updates.
 
 [Back to top](#top)
-
 ### <span id="section1-5">1.5 - Backup and Restore</span>
 
 ***The backup and restore functions are designed to be used as a recovery tool, not as a migration tool between releases.***
@@ -224,7 +179,6 @@ When restoring a backup containing modules from an older release into a newer re
   - Restores remaining files from the backup
 
 [Back to top](#top)
-
 ### <span id="section1-6">1.6 - Seeking Support</span>
 **Please DO NOT use Winlink for support requests!**
 
@@ -268,8 +222,7 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate t
 
 [Back to top](#top)
 
----
-## <span id="section2-0">2.0 - Included Software</span>
+## <span id="section1-0">1.0 - Getting Started</span> (***MUST READ!***)
 ### <span id="section2-1">2.1 - Amateur Radio Software</span>
 - ARDOP 1.0.4.1.3 (Soundcard Modem)
 - Direwolf 1.7 (Packet Modem)
@@ -289,13 +242,8 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate t
 > **Developer Note:**
 >
 > While arcOS does include FLRig and rigctl[d], and users may save customized settings in applications to take advantage of this, **NO DEVELOPER SUPPORT FOR CAT/RIG CONTROL WILL BE PROVIDED**.
->
-> **This is for the following reasons:**
->
-> 1. CAT control isolates the operator from their own equipment, often exposing a lack of proficiency when it is not available.
-> 2. CAT control introduces extra complexity with regard to troubleshooting, with which many inexperienced users aren't prepared to engage.
-> 3. Attempting to maintain support for users of every past, present, and future transceiver is not feasible.
 
+[Back to top](#top)
 ### <span id="section2-2">2.2 - Other Software</span>
 - Audacity (Audio Editor)
 - GIMP (Image Editor)
@@ -312,8 +260,7 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate t
 
 [Back to top](#top)
 
----
-## <span id="section3-0">3.0 - Customization</span>
+---## <span id="section2-0">2.0 - Included Software</span>
 ### <span id="section3-1">3.1 - Appearance</span>
 Users/groups can customize the static desktop background image in two ways. Place the desired `jpg` image(s) in the following location(s):
   - System-level: `/arcHIVE/.wallpaper.jpg` (set *before* Station Setup)
@@ -328,7 +275,6 @@ Users can also set the desktop background to a slideshow of images. Place the de
 > ```
 > N0CALL:~ $ gsettings list-recursively
 > ```
-
 ### <span id="section3-2">3.2 - Persistent Software</span>
 For software not included in arcOS, but available as a deb package file, users can utilize the `download-packages` command in a terminal to cache the packages in persistent storage for installation at boot time, before Station Setup runs. Prior to using this tool, users should test installing the packages manually using `apt`. Once any dependency issues are resolved, pass the package list to the command as follows:
 
@@ -340,7 +286,6 @@ Each time the command is used, the downloaded packages are stored in `/arcHIVE/Q
 packages without disturbing other groups of packages. Users are encouraged to give the `packages-xyz123` directory a more memorable name.
 
 If a piece of software is not available from a repository, and the deb file must be manually downloaded, users can manually create a directory for the deb file in `/arcHIVE/QRV/.packages`.
-
 ### <span id="section3-3">3.3 - User Modules</span>
 Users/groups are encouraged to create their own `USER` modules/scripts to extend or modify functionality. A private or public [repository on GitHub](https://github.com/kg4vdk/kg4vdk-user-modules) can be a great way for groups to share modules. Take a look at some of the `COMMUNITY` and `CORE` modules if you're looking for ideas to get your own module started.
 
@@ -349,19 +294,17 @@ Users/groups are encouraged to create their own `USER` modules/scripts to extend
 `USER` modules should be placed in `/arcHIVE/QRV/N0CALL/arcos-linux-modules/USER` and can be numerically named to allow for ordering (e.g. `42_MY-COOL-MODULE.sh`).
 
 One of the final `CORE` modules restarts the Cinnamon desktop environment (this is why the screen flashes back momentarily during Station Setup). If your `USER` module needs to run before the Cinnamon restart, simply make sure the module script includes “_PRE_” in its filename (e.g. `00_PRE_MY-COOL-MODULE.sh`).
-
 ### <span id="section3-4">3.4 - Auto-config</span>
 Once configured to your liking, you can set arcOS to automatically configure your station with the information saved by “Station Setup”. To enable auto-configuration, simply copy your station configuration from `/arcHIVE/.operators/station-info_$CALLSIGN` to a hidden file named `/arcHIVE/.autoconfig`.
 
 [Back to top](#top)
 
 ---
-## <span id="section4-0">4.0 - Security</span>
+## <span id="section3-0">3.0 - Customization</span>
 ### <span id="section4-1">4.1 - Passwords</span>
 By default, there is no user password set in arcOS. Users can set an individual password using the `set-password` command. This will set the password used when unlocking the screen as well as for some graphical administrative utilities. The saved password is stored in hashed form at `/arcHIVE/QRV/N0CALL/.passwd`.
 
 Additionally, `gnome-keyring` provides a login keyring. By default this keyring is unencrypted. Users may choose to encrypt the keyring with a password by opening the "Menu > Accessories > Passwords & Keys" utility. Then, right-click on the "Login" folder under the "Passwords" section and select "Change Password." If this password is set, you will be prompted for the keyring password at the next startup after Station Setup has completed.
-
 ### <span id="section4-2">4.2 - Boot Device Encryption</span>
 Users may want to prevent unauthorized access to any personal files (`arcHIVE`) on the arcOS boot device. In this case, a LUKS encrypted `/arcHIVE` can be manually created. Once created, users will be prompted to unlock the encrypted `arcHIVE` before being presented with Station Setup 
 
@@ -370,3 +313,4 @@ Users may want to prevent unauthorized access to any personal files (`arcHIVE`) 
 [Back to top](#top)
 
 ---
+## <span id="section4-0">4.0 - Security</span>
