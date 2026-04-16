@@ -17,14 +17,14 @@ Once arcOS is ready for use, you'll see a pop-up notification that says **"N0CAL
 
 In the lower right of the desktop you'll find the **Station Information** display provided by `conky`. This display contains the following information:
 
- - Current operator callsign
- - Gridsquare and coordinates if valid GPS fix available, otherwise gridsquare entered at **Station Setup**
-   - Clock icon (⏲) displayed if GPS is being used as the system time source
+- Current operator callsign
+- Gridsquare and coordinates if valid GPS fix available, otherwise gridsquare entered at **Station Setup**
+  - Clock icon (⏲) displayed if GPS is being used as the system time source
 - arcOS ISO and QRV Modules version
 - Deployed QRV Profile
 - Boot device and system uptime
 - CPU and RAM usage
-- Live OS and `arcHIVE` usage
+- Live OS (portion of RAM) and `arcHIVE` (persistent storage) usage
 - IP address if connected to a network
   - Screen icon (🖵) if Desktop Sharing is enabled
 

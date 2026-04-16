@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-15T2017UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-04-16T1701UTC</em></strong></small></p>
 
 ## Table of Contents
 - **[0.0 - Introduction (*MUST READ!*)](#section0-0)**
@@ -73,14 +73,14 @@ Once arcOS is ready for use, you'll see a pop-up notification that says **"N0CAL
 
 In the lower right of the desktop you'll find the **Station Information** display provided by `conky`. This display contains the following information:
 
- - Current operator callsign
- - Gridsquare and coordinates if valid GPS fix available, otherwise gridsquare entered at **Station Setup**
-   - Clock icon (⏲) displayed if GPS is being used as the system time source
+- Current operator callsign
+- Gridsquare and coordinates if valid GPS fix available, otherwise gridsquare entered at **Station Setup**
+  - Clock icon (⏲) displayed if GPS is being used as the system time source
 - arcOS ISO and QRV Modules version
 - Deployed QRV Profile
 - Boot device and system uptime
 - CPU and RAM usage
-- Live OS and `arcHIVE` usage
+- Live OS (portion of RAM) and `arcHIVE` (persistent storage) usage
 - IP address if connected to a network
   - Screen icon (🖵) if Desktop Sharing is enabled
 
@@ -190,8 +190,8 @@ When seeking support consider whether your question/issue is specific to arcOS. 
 > **Steps to reproduce the behavior:**
 >
 >  1. Go to '...' 
->  2. Click on '....' 
->  3. Scroll down to '....' 
+>  2. Click on '...' 
+>  3. Scroll down to '...' 
 >  4. See behavior '...' 
 >
 > **Expected behavior:** Description of what you expected to happen.
@@ -202,22 +202,19 @@ When seeking support consider whether your question/issue is specific to arcOS. 
 >
 > **Additional context:** Add any other context about the problem.
 
-You may be asked to provide a "**QRV REPORT**". Here's how to generate the QRV report:
+You may be asked to provide a "**QRV REPORT**". Here's how to generate a QRV report:
 
   - Open a terminal.
   - Run the `qrv` command.
   - Copy/paste or attach the report to your support request.
 
-You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate the system report:
+You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate a system report:
 
   - Select “Menu > System Info”, and select “Upload system information”.
     - A browser window will open with the text of your system report.
     - Please, DO NOT copy/paste the full text of the system report.
     - Instead, copy the link from the browser address bar, and include only the link to the system report.
-
-> **Recommended Reading:**
->
-> [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html) by Eric S. Raymond
+      - e.g. https://termbin.com/lmnop
 
 [Back to top](#top)
 

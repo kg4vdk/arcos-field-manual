@@ -10,8 +10,8 @@ When seeking support consider whether your question/issue is specific to arcOS. 
 > **Steps to reproduce the behavior:**
 >
 >  1. Go to '...' 
->  2. Click on '....' 
->  3. Scroll down to '....' 
+>  2. Click on '...' 
+>  3. Scroll down to '...' 
 >  4. See behavior '...' 
 >
 > **Expected behavior:** Description of what you expected to happen.
@@ -22,22 +22,19 @@ When seeking support consider whether your question/issue is specific to arcOS. 
 >
 > **Additional context:** Add any other context about the problem.
 
-You may be asked to provide a "**QRV REPORT**". Here's how to generate the QRV report:
+You may be asked to provide a "**QRV REPORT**". Here's how to generate a QRV report:
 
   - Open a terminal.
   - Run the `qrv` command.
   - Copy/paste or attach the report to your support request.
 
-You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate the system report:
+You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate a system report:
 
   - Select “Menu > System Info”, and select “Upload system information”.
     - A browser window will open with the text of your system report.
     - Please, DO NOT copy/paste the full text of the system report.
     - Instead, copy the link from the browser address bar, and include only the link to the system report.
-
-> **Recommended Reading:**
->
-> [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html) by Eric S. Raymond
+      - e.g. https://termbin.com/lmnop
 
 [Back to top](#top)
 
