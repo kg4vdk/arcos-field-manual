@@ -36,5 +36,11 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate a
     - Instead, copy the link from the browser address bar, and include only the link to the system report.
       - e.g. https://termbin.com/lmnop
 
+> **Developer Note:**
+>
+> If you enjoy using arcOS, consider making a donation. By default, there are pop-up reminders every fifth boot and a "Donate" icon on the desktop. However, users can persistently disable these by creating a hidden file in `/arcHIVE` using the following command:
+>
+> `N0CALL:~ $ touch /arcHIVE/.no-donate`
+
 [Back to top](#top)
 
