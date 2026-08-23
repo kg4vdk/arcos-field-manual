@@ -1,5 +1,5 @@
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
-<p style="text-align: right;"><small><strong><em>Revised: 2026-04-16T1701UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-08-23T1752UTC</em></strong></small></p>
 
 ## Table of Contents
 - **[0.0 - Introduction (*MUST READ!*)](#section0-0)**
@@ -259,6 +259,7 @@ You may be asked to provide a "**FULL SYSTEM REPORT**". Here's how to generate a
 ---## <span id="section3-0">3.0 - Customization</span>
 ### <span id="section3-1">3.1 - Appearance</span>
 Users/groups can customize the static desktop background image in two ways. Place the desired `jpg` image(s) in the following location(s):
+
   - System-level: `/arcHIVE/.wallpaper.jpg` (set *before* Station Setup)
   - User-specific: `/arcHIVE/QRV/N0CALL/.wallpaper.jpg` (set *after* Station Setup)
 
