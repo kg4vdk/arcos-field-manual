@@ -31,7 +31,7 @@ blockquote {
 
 <h1 id="top" style="text-align: center;">arcOS Field Manual - <em>Denali</em></h1>
 
-<p style="text-align: right;"><small><strong><em>Revised: 2026-08-23T1752UTC</em></strong></small></p>
+<p style="text-align: right;"><small><strong><em>Revised: 2026-08-23T2158UTC</em></strong></small></p>
 
 <h2>Table of Contents</h2>
 
@@ -43,7 +43,7 @@ blockquote {
 <li><strong><a href="#section1-2">1.2 - First Boot Experience</a></strong></li>
 <li><strong><a href="#section1-3">1.3 - Persistent Storage and Configurations</a></strong></li>
 <li><strong><a href="#section1-4">1.4 - QRV Modules</a></strong></li>
-<li><strong><a href="#section1-5">1.6 - Backup and Restore</a></strong></li>
+<li><strong><a href="#section1-5">1.5 - Backup and Restore</a></strong></li>
 <li><strong><a href="#section1-6">1.6 - Seeking Support</a></strong></li>
 </ul></li>
 <li><strong><a href="#section2-0">2.0 - Included Software</a></strong>
@@ -199,12 +199,10 @@ blockquote {
 
 <p>To update the QRV Modules, use “Menu > arcOS Tools > Update QRV Modules.”</p>
 
-<p><code>USER</code> modules <strong><em>ARE NOT</em></strong> overwritten by module updates.</p>
-
 <p><a href="#top">Back to top</a></p>
 <h3><span id="section1-5">1.5 - Backup and Restore</span></h3>
 
-<p><strong><em>The backup and restore functions are designed to be used as a recovery tool, not as a migration tool between releases.</em></strong></p>
+<h3>Backup</h3>
 
 <p>To backup the currently configured operator, use the “Menu > arcOS Tools > Backup Operator” utility. This will create a backup of the current operator’s files. The utility will prompt for a location to save the backup. It is recommended to save the backup onto a storage device other than the arcOS persistent storage.</p>
 
@@ -213,16 +211,18 @@ blockquote {
 <ul>
 <li><code>/arcHIVE/.station-info</code></li>
 <li><code>/arcHIVE/.operators/N0CALL_station-info</code></li>
-<li><code>/arcHIVE/QRV/N0CALL/*</code>   <strong>&lt;-- If you want it in your backup, keep it in your callsign directory!</strong> </li>
+<li><code>/arcHIVE/QRV/N0CALL/*</code>   <strong>If you want it in your backup, keep it in your callsign directory!</strong> </li>
 <li><code>/arcHIVE/QRV/LOGS</code></li>
 <li><code>/arcHIVE/QRV/.packages</code></li>
 </ul>
 
-<p><strong><em>Offline maps are NOT included! Back them up separately.</em></strong></p>
+<p><strong><em>Offline maps and the Downloads directory are NOT included! Back them up separately if desired.</em></strong></p>
+
+<h3>Restore</h3>
 
 <p>To restore an operator from a backup file, reboot the system, and at the “Select Operator” screen, select “Restore from backup”. A drag-and-drop window will be presented. Open the /arcHIVE drive on the Desktop to access the file browser. Locate the backup file, and drag it into the  window. When the restoration is complete, the Station Setup will be presented, configured for the restored operator.</p>
 
-<p>When restoring a backup containing modules from an older release into a newer release, you may be notified that the backup incompatible. In this scenario, you will be prompted:</p>
+<p>When restoring a backup containing modules from an older release into a newer release, you may be notified that the backup incompatible. In this scenario, you will be prompted with the following options:</p>
 
 <p><strong>The QRV Modules (<code>arcos-linux-modules</code>) in the backup are a different version than the modules contained in the ISO!</strong></p>
 
@@ -248,6 +248,14 @@ blockquote {
 <li>Restores remaining files from the backup</li>
 </ul></li>
 </ul>
+
+<blockquote>
+  <p><strong>Developer Note:</strong></p>
+
+<p><strong><em>The backup and restore functions are designed to be used as a recovery tool, not as a migration tool between releases.</em></strong></p>
+
+<p>The resulting file will have the extension <code>.backup</code>. It is an uncompressed <code>tar</code> archive. The extension is used to more clearly identify the file, as well as to prevent inadvertently opening and possibly modifying the archive in a graphical archive manager. Users may choose to easily browse/add/delete files from the <code>.backup</code> archive by appending the extension <code>.tar</code> (e.g. <code>N0CALL_2026-08-01_1800UTC.backup.tar</code>), then double-clicking the archive. The <code>restore-operator</code> functionality will restore <code>OFFLINE-MAPS</code> if they have been manually added to the the archive. Be aware that adding large or numerous files to the archive can be time consuming.</p>
+</blockquote>
 
 <p><a href="#top">Back to top</a></p>
 <h3><span id="section1-6">1.6 - Seeking Support</span></h3>
@@ -300,6 +308,14 @@ blockquote {
 </ul></li>
 </ul></li>
 </ul>
+
+<blockquote>
+  <p><strong>Developer Note:</strong></p>
+
+<p>If you enjoy using arcOS, consider making a donation. By default, there are pop-up reminders every fifth boot and a "Donate" icon on the desktop. However, users can persistently disable these by creating a hidden file in <code>/arcHIVE</code> using the following command:</p>
+
+<p><code>N0CALL:~ $ touch /arcHIVE/.no-donate</code></p>
+</blockquote>
 
 <p><a href="#top">Back to top</a></p>
 <h2><span id="section2-0">2.0 - Included Software</span></h2>

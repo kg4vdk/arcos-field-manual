@@ -13,6 +13,4 @@ When an update for the QRV Modules is available, users will be notified by the a
 
 To update the QRV Modules, use “Menu > arcOS Tools > Update QRV Modules.”
 
-`USER` modules ***ARE NOT*** overwritten by module updates.
-
 [Back to top](#top)
